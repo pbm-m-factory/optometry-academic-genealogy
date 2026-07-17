@@ -172,6 +172,7 @@ function PedigreeTree({ data, model, selectedId, onSelect }) {
 
 export default function Home() {
   const [data, setData] = useState(null);
+  const [loadError, setLoadError] = useState(false);
   const [tab, setTab] = useState("explore");
   const [selectedId, setSelectedId] = useState("P002");
   const [query, setQuery] = useState("");
@@ -179,7 +180,13 @@ export default function Home() {
   const [identityFilter, setIdentityFilter] = useState("all");
 
   useEffect(() => {
-    fetch("/data/genealogy.json").then((response) => response.json()).then(setData);
+    fetch("./data/genealogy.json")
+      .then((response) => {
+        if (!response.ok) throw new Error(`Dataset request failed (${response.status})`);
+        return response.json();
+      })
+      .then(setData)
+      .catch(() => setLoadError(true));
   }, []);
 
   const model = useMemo(() => {
@@ -194,6 +201,10 @@ export default function Home() {
     Object.values(childrenByPerson).forEach((items) => items.sort((a, b) => (a.year || 9999) - (b.year || 9999)));
     return { peopleById, parentsByPerson, childrenByPerson };
   }, [data]);
+
+  if (loadError) {
+    return <main className="loading"><div className="loading-mark">O</div><p role="alert">The tree could not be opened. Please refresh the page.</p></main>;
+  }
 
   if (!data || !model) {
     return <main className="loading"><div className="loading-mark">O</div><p>Growing the tree…</p></main>;
