@@ -87,10 +87,10 @@
     },
     {
       "id": "P013",
-      "name": "C. O'Donnell",
-      "nameAsSource": "O'Donnell C.",
-      "identityStatus": "initials_only",
-      "note": ""
+      "name": "Clare O'Donnell",
+      "nameAsSource": "O'Donnell C.; Clare O'Donnell",
+      "identityStatus": "named",
+      "note": "Full name corroborated by official University of Manchester records."
     },
     {
       "id": "P014",
@@ -678,6 +678,202 @@
       "name": "O. Famakinwa",
       "nameAsSource": "Famakinwa O.",
       "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P099",
+      "name": "Hema Radhakrishnan",
+      "nameAsSource": "Hema Radhakrishnan; Radhakrishnan H.",
+      "identityStatus": "named",
+      "note": "Official University of Manchester thesis records identify main-supervisor roles in optometry and vision science."
+    },
+    {
+      "id": "P100",
+      "name": "Fiona Cruickshank",
+      "nameAsSource": "Fiona Cruickshank; Cruickshank F.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P101",
+      "name": "Ian Murray",
+      "nameAsSource": "Ian Murray; Murray I.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P102",
+      "name": "M. Chantal Hillarby",
+      "nameAsSource": "M Chantal Hillarby; Hillarby M. C.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P103",
+      "name": "Michael Sherratt",
+      "nameAsSource": "Michael Sherratt; Sherratt M.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P104",
+      "name": "Susmito Biswas",
+      "nameAsSource": "Susmito Biswas; Biswas S.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P105",
+      "name": "Sue Shawcross",
+      "nameAsSource": "Sue Shawcross; Shawcross S.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P106",
+      "name": "Chris Dickinson",
+      "nameAsSource": "Chris Dickinson; Dickinson C.",
+      "identityStatus": "named",
+      "note": "Official University of Manchester thesis records identify supervision in optometry and low-vision research."
+    },
+    {
+      "id": "P107",
+      "name": "Emma Gowen",
+      "nameAsSource": "Emma Gowen; Gowen E.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P108",
+      "name": "Catherine Porter",
+      "nameAsSource": "Catherine Porter; Porter C.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P109",
+      "name": "Robert Harper",
+      "nameAsSource": "Robert Harper; Harper R.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P110",
+      "name": "Jacqueline Chua",
+      "nameAsSource": "Jacqueline Chua; Chua J.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P111",
+      "name": "Wan Elhami Wan Omar",
+      "nameAsSource": "Wan Elhami Wan Omar; Wan Omar W. E.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P112",
+      "name": "Juan Zapata-Diaz",
+      "nameAsSource": "Juan Zapata-Diaz; Zapata-Diaz J.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P113",
+      "name": "Pablo Benito Lopez",
+      "nameAsSource": "Pablo Benito Lopez; Benito Lopez P.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P114",
+      "name": "Irene Siso Fuertes",
+      "nameAsSource": "Irene Siso Fuertes; Siso Fuertes I.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P115",
+      "name": "Ithar Beshtawi",
+      "nameAsSource": "Ithar Beshtawi; Beshtawi I.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P116",
+      "name": "C. Ihesiulor",
+      "nameAsSource": "Ihesiulor C.",
+      "identityStatus": "initials_only",
+      "note": "The official thesis record does not establish the candidate's full forename."
+    },
+    {
+      "id": "P117",
+      "name": "Bandar Alenezi",
+      "nameAsSource": "Bandar Alenezi; Alenezi B.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P118",
+      "name": "Jawaher Alshehri",
+      "nameAsSource": "Jawaher Alshehri; Alshehri J.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P119",
+      "name": "Ketan Parmar",
+      "nameAsSource": "Ketan Parmar; Parmar K.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P120",
+      "name": "Wei Lin",
+      "nameAsSource": "Wei Lin; Lin W.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P121",
+      "name": "Nur Sabrina Subri",
+      "nameAsSource": "Nur Sabrina Subri; Subri N. S.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P122",
+      "name": "Chee Yong Kingsley Muk",
+      "nameAsSource": "Chee Yong Kingsley Muk; Muk C. Y. K.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P123",
+      "name": "Patrick Gunn",
+      "nameAsSource": "Patrick Gunn; Gunn P.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P124",
+      "name": "Rachel Bambrick",
+      "nameAsSource": "Rachel Bambrick; Bambrick R.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P125",
+      "name": "Fiona Carley",
+      "nameAsSource": "Fiona Carley; Carley F.",
+      "identityStatus": "named",
+      "note": ""
+    },
+    {
+      "id": "P126",
+      "name": "Khaled Alzahrani",
+      "nameAsSource": "Khaled Alzahrani; Alzahrani K.",
+      "identityStatus": "named",
       "note": ""
     }
   ],
@@ -1860,7 +2056,41 @@
     {"id":"R111","supervisorId":"P002","candidateId":"P095","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2017,"supervisorRole":"project supervisor","thesisTitle":"Assessment of blink characteristics with and without contact lenses","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
     {"id":"R112","supervisorId":"P002","candidateId":"P096","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2019,"supervisorRole":"project supervisor","thesisTitle":"Assessment of diurnal variations in ocular light scatter in contact lens wearers","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
     {"id":"R113","supervisorId":"P002","candidateId":"P097","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2021,"supervisorRole":"project supervisor","thesisTitle":"Monovision and anisometropia","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
-    {"id":"R114","supervisorId":"P015","candidateId":"P098","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2008,"supervisorRole":"unspecified","thesisTitle":"An investigation of the aetiology of solution-induced corneal staining","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed MSc supervision identified in an uploaded CV."}
+    {"id":"R114","supervisorId":"P015","candidateId":"P098","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2008,"supervisorRole":"unspecified","thesisTitle":"An investigation of the aetiology of solution-induced corneal staining","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed MSc supervision identified in an uploaded CV."},
+    {"id":"R115","supervisorId":"P099","candidateId":"P111","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2024,"supervisorRole":"main supervisor","thesisTitle":"Mechanisms and Optometrists' Perspectives of Myopia Control Interventions","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R116","supervisorId":"P053","candidateId":"P111","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2024,"supervisorRole":"co-supervisor","thesisTitle":"Mechanisms and Optometrists' Perspectives of Myopia Control Interventions","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R117","supervisorId":"P100","candidateId":"P111","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2024,"supervisorRole":"co-supervisor","thesisTitle":"Mechanisms and Optometrists' Perspectives of Myopia Control Interventions","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R118","supervisorId":"P099","candidateId":"P112","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"main supervisor","thesisTitle":"Mathematical Modelling of the Depth-of-Field of the Eye","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R119","supervisorId":"P101","candidateId":"P112","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"co-supervisor","thesisTitle":"Mathematical Modelling of the Depth-of-Field of the Eye","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R120","supervisorId":"P099","candidateId":"P113","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2015,"supervisorRole":"main supervisor","thesisTitle":"Measuring and Modelling Forward Light Scattering in the Human Eye","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R121","supervisorId":"P101","candidateId":"P113","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2015,"supervisorRole":"co-supervisor","thesisTitle":"Measuring and Modelling Forward Light Scattering in the Human Eye","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R122","supervisorId":"P099","candidateId":"P114","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2017,"supervisorRole":"main supervisor","thesisTitle":"Age-related changes in the optics of human eye with accommodation","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R123","supervisorId":"P101","candidateId":"P114","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2017,"supervisorRole":"co-supervisor","thesisTitle":"Age-related changes in the optics of human eye with accommodation","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R124","supervisorId":"P099","candidateId":"P115","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2013,"supervisorRole":"main supervisor","thesisTitle":"The structural and functional effects of corneal collagen cross-linking on human corneal tissue","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R125","supervisorId":"P013","candidateId":"P115","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2013,"supervisorRole":"co-supervisor","thesisTitle":"The structural and functional effects of corneal collagen cross-linking on human corneal tissue","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R126","supervisorId":"P102","candidateId":"P115","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2013,"supervisorRole":"co-supervisor","thesisTitle":"The structural and functional effects of corneal collagen cross-linking on human corneal tissue","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R127","supervisorId":"P099","candidateId":"P116","degreeType":"MPhil","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"main supervisor","thesisTitle":"Scleral Changes in Myopia","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R128","supervisorId":"P103","candidateId":"P116","degreeType":"MPhil","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"co-supervisor","thesisTitle":"Scleral Changes in Myopia","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R129","supervisorId":"P099","candidateId":"P117","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"main supervisor","thesisTitle":"A study of UV-A Corneal Cross-Linking in Juvenile Corneas","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R130","supervisorId":"P104","candidateId":"P117","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"co-supervisor","thesisTitle":"A study of UV-A Corneal Cross-Linking in Juvenile Corneas","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R131","supervisorId":"P102","candidateId":"P117","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"co-supervisor","thesisTitle":"A study of UV-A Corneal Cross-Linking in Juvenile Corneas","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R132","supervisorId":"P099","candidateId":"P118","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"main supervisor","thesisTitle":"Corneal Cross-linking in the Management of Fungal Keratitis","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R133","supervisorId":"P102","candidateId":"P118","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"co-supervisor","thesisTitle":"Corneal Cross-linking in the Management of Fungal Keratitis","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R134","supervisorId":"P105","candidateId":"P118","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"co-supervisor","thesisTitle":"Corneal Cross-linking in the Management of Fungal Keratitis","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R135","supervisorId":"P107","candidateId":"P119","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"main supervisor","thesisTitle":"An investigation of optometric and orthoptic conditions in autistic adults","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R136","supervisorId":"P106","candidateId":"P119","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"co-supervisor","thesisTitle":"An investigation of optometric and orthoptic conditions in autistic adults","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R137","supervisorId":"P108","candidateId":"P119","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"co-supervisor","thesisTitle":"An investigation of optometric and orthoptic conditions in autistic adults","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R138","supervisorId":"P106","candidateId":"P120","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2016,"supervisorRole":"main supervisor","thesisTitle":"Evaluation of Computerised Programs for the Diagnosis and Treatment of Binocular Anomalies","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R139","supervisorId":"P107","candidateId":"P121","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"main supervisor","thesisTitle":"Investigating Visual Integration in Autism Using Contour Integration Tasks","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R140","supervisorId":"P106","candidateId":"P121","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"co-supervisor","thesisTitle":"Investigating Visual Integration in Autism Using Contour Integration Tasks","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R141","supervisorId":"P106","candidateId":"P122","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2019,"supervisorRole":"main supervisor","thesisTitle":"Duration related effects in reading performance in individuals with visual impairment","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R142","supervisorId":"P110","candidateId":"P122","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2019,"supervisorRole":"co-supervisor","thesisTitle":"Duration related effects in reading performance in individuals with visual impairment","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R143","supervisorId":"P109","candidateId":"P123","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2024,"supervisorRole":"main supervisor","thesisTitle":"Capacity in glaucoma care: The role of optometry and innovations in service delivery","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R144","supervisorId":"P106","candidateId":"P123","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2024,"supervisorRole":"co-supervisor","thesisTitle":"Capacity in glaucoma care: The role of optometry and innovations in service delivery","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R145","supervisorId":"P106","candidateId":"P124","degreeType":"MPhil","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2016,"supervisorRole":"supervisor","thesisTitle":"The use of portable electronic vision enhancement systems by the visually impaired (the p-EVES study)","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R146","supervisorId":"P109","candidateId":"P124","degreeType":"MPhil","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2016,"supervisorRole":"supervisor","thesisTitle":"The use of portable electronic vision enhancement systems by the visually impaired (the p-EVES study)","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R147","supervisorId":"P102","candidateId":"P126","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"main supervisor","thesisTitle":"Corneal Imaging and Densitometry Measurements to Monitor Disease Progression or/and Treatments Outcome","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."},
+    {"id":"R148","supervisorId":"P125","candidateId":"P126","degreeType":"PhD","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"co-supervisor","thesisTitle":"Corneal Imaging and Densitometry Measurements to Monitor Disease Progression or/and Treatments Outcome","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official institutional thesis record explicitly identifies the supervisor role."}
   ],
   "reportedTotals": [
     {
