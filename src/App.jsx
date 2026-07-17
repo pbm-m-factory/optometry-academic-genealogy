@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useMemo, useState } from "react";
 
 const tabs = [
@@ -177,7 +179,7 @@ export default function Home() {
   const [identityFilter, setIdentityFilter] = useState("all");
 
   useEffect(() => {
-    fetch("./data/genealogy.json").then((response) => response.json()).then(setData);
+    fetch("/data/genealogy.json").then((response) => response.json()).then(setData);
   }, []);
 
   const model = useMemo(() => {

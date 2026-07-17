@@ -220,10 +220,10 @@
     },
     {
       "id": "P032",
-      "name": "M. Read",
-      "nameAsSource": "Read M.",
-      "identityStatus": "initials_only",
-      "note": ""
+      "name": "Michael Read",
+      "nameAsSource": "Michael Read; Read M.",
+      "identityStatus": "named",
+      "note": "Full name confirmed by official institutional thesis records."
     },
     {
       "id": "P033",
@@ -373,13 +373,6 @@
       "note": "Supervisor identified in an official institutional thesis record."
     },
     {
-      "id": "P054",
-      "name": "Michael Read",
-      "nameAsSource": "Michael Read",
-      "identityStatus": "named",
-      "note": "Supervisor identified in official institutional thesis records."
-    },
-    {
       "id": "P055",
       "name": "Martin Fergie",
       "nameAsSource": "Martin Fergie",
@@ -413,6 +406,279 @@
       "nameAsSource": "James Wolffsohn",
       "identityStatus": "named",
       "note": "DSc candidate identified in an official institutional thesis record."
+    },
+    {
+      "id": "P060",
+      "name": "Laura Downie",
+      "nameAsSource": "Laura Elizabeth Downie; Laura Downie",
+      "identityStatus": "named",
+      "note": "PhD candidate and supervisor identified in official University of Melbourne records."
+    },
+    {
+      "id": "P061",
+      "name": "Erica Fletcher",
+      "nameAsSource": "Erica Fletcher",
+      "identityStatus": "named",
+      "note": "Named by Laura Downie as one of her PhD supervisors."
+    },
+    {
+      "id": "P062",
+      "name": "Algis Vingrys",
+      "nameAsSource": "Algis Vingrys",
+      "identityStatus": "named",
+      "note": "Named by Laura Downie as one of her PhD supervisors."
+    },
+    {
+      "id": "P063",
+      "name": "Michael Pianta",
+      "nameAsSource": "Michael Pianta",
+      "identityStatus": "named",
+      "note": "Named by Laura Downie as one of her PhD supervisors."
+    },
+    {
+      "id": "P064",
+      "name": "Jennifer Craig",
+      "nameAsSource": "Jennifer P. Craig; Jennifer Craig",
+      "identityStatus": "named",
+      "note": "PhD co-supervisor identified in official University of Melbourne records."
+    },
+    {
+      "id": "P065",
+      "name": "Alexis “Ceecee” Britten-Jones",
+      "nameAsSource": "Alexis Ceecee Zhang; Alexis Ceecee Britten-Jones",
+      "identityStatus": "named",
+      "note": "Published during her PhD as Alexis Ceecee Zhang and subsequently as Alexis Ceecee Britten-Jones. No formal supervision path to Nathan Efron is currently evidenced."
+    },
+    {
+      "id": "P066",
+      "name": "C. S. Yap",
+      "nameAsSource": "Yap CS.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P067",
+      "name": "A. Nowozyckyj",
+      "nameAsSource": "Nowozyckyj A.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P068",
+      "name": "J. P. Fitzgerald",
+      "nameAsSource": "Fitzgerald JP.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P069",
+      "name": "D. J. Everett",
+      "nameAsSource": "Everett DJ.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P070",
+      "name": "J. G. Parcerisas",
+      "nameAsSource": "Parcerisas JG.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P071",
+      "name": "G. Sheard",
+      "nameAsSource": "Sheard G.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P072",
+      "name": "S. Al-Oliky",
+      "nameAsSource": "Al-Oliky S.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P073",
+      "name": "D. Hume",
+      "nameAsSource": "Hume D.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P074",
+      "name": "E. Proctor",
+      "nameAsSource": "Proctor E.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P075",
+      "name": "S. Katsara",
+      "nameAsSource": "Katsara S.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P076",
+      "name": "R. Jagpal",
+      "nameAsSource": "Jagpal R.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P077",
+      "name": "L. Oliveira-Soto",
+      "nameAsSource": "Oliveira-Soto L.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P078",
+      "name": "S. Morgan",
+      "nameAsSource": "Morgan S.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P079",
+      "name": "M. Al-Dossari",
+      "nameAsSource": "Al-Dossari M.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P080",
+      "name": "A. Coops",
+      "nameAsSource": "Coops A.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P081",
+      "name": "A. Mehasi",
+      "nameAsSource": "Mehasi A.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P082",
+      "name": "E. A. Hill",
+      "nameAsSource": "Hill EA.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P083",
+      "name": "S. Efron",
+      "nameAsSource": "Efron S.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P084",
+      "name": "S. Naroo",
+      "nameAsSource": "Naroo S.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P085",
+      "name": "C. L. Gore",
+      "nameAsSource": "Gore CL.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P086",
+      "name": "S. Betney",
+      "nameAsSource": "Betney S.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P087",
+      "name": "A. Frangouli",
+      "nameAsSource": "Frangouli A.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P088",
+      "name": "E. Svarverud",
+      "nameAsSource": "Svarverud E.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P089",
+      "name": "G. Oke",
+      "nameAsSource": "Oke G.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P090",
+      "name": "I. Stougiannou",
+      "nameAsSource": "Stougiannou I.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P091",
+      "name": "N. Chatterjee",
+      "nameAsSource": "Chatterjee N.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P092",
+      "name": "S. Zafar",
+      "nameAsSource": "Zafar S.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P093",
+      "name": "W. Jin",
+      "nameAsSource": "Jin W.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P094",
+      "name": "J. Jolly",
+      "nameAsSource": "Jolly J.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P095",
+      "name": "T. Sun",
+      "nameAsSource": "Sun T.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P096",
+      "name": "A. Abidin",
+      "nameAsSource": "Abidin A.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P097",
+      "name": "N. Akmuqbil",
+      "nameAsSource": "Akmuqbil N.",
+      "identityStatus": "initials_only",
+      "note": ""
+    },
+    {
+      "id": "P098",
+      "name": "O. Famakinwa",
+      "nameAsSource": "Famakinwa O.",
+      "identityStatus": "initials_only",
+      "note": ""
     }
   ],
   "relationships": [
@@ -1410,7 +1676,7 @@
     },
     {
       "id": "R063",
-      "supervisorId": "P054",
+      "supervisorId": "P032",
       "candidateId": "P042",
       "degreeType": "PhD",
       "institution": "University of Manchester",
@@ -1490,7 +1756,7 @@
     },
     {
       "id": "R068",
-      "supervisorId": "P054",
+      "supervisorId": "P032",
       "candidateId": "P058",
       "degreeType": "MPhil",
       "institution": "University of Manchester",
@@ -1551,7 +1817,50 @@
       "sourcePage": null,
       "evidenceLevel": "Official thesis record",
       "note": "Included following expansion of the genealogy to non-PhD postgraduate degrees."
-    }
+    },
+    {"id":"R072","supervisorId":"P060","candidateId":"P065","degreeType":"PhD","institution":"University of Melbourne","status":"awarded","statusWording":"Awarded","year":2020,"supervisorRole":"main supervisor","thesisTitle":"Clinical applications of omega-3 fatty acids for corneal and peripheral nerve health","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Primary supervisor and thesis details confirmed by official University of Melbourne records."},
+    {"id":"R073","supervisorId":"P064","candidateId":"P065","degreeType":"PhD","institution":"University of Melbourne","status":"awarded","statusWording":"Awarded","year":2020,"supervisorRole":"co-supervisor","thesisTitle":"Clinical applications of omega-3 fatty acids for corneal and peripheral nerve health","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official institutional profile","note":"Co-supervision confirmed by official University of Melbourne and University of Auckland records."},
+    {"id":"R074","supervisorId":"P061","candidateId":"P060","degreeType":"PhD","institution":"University of Melbourne","status":"awarded","statusWording":"Awarded","year":2008,"supervisorRole":"unspecified","thesisTitle":"Vascular, neuronal and glial cell changes in retinopathy of prematurity","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Direct public statement","note":"Laura Downie publicly named Erica Fletcher as one of her PhD supervisors."},
+    {"id":"R075","supervisorId":"P062","candidateId":"P060","degreeType":"PhD","institution":"University of Melbourne","status":"awarded","statusWording":"Awarded","year":2008,"supervisorRole":"unspecified","thesisTitle":"Vascular, neuronal and glial cell changes in retinopathy of prematurity","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Direct public statement","note":"Laura Downie publicly named Algis Vingrys as one of her PhD supervisors."},
+    {"id":"R076","supervisorId":"P063","candidateId":"P060","degreeType":"PhD","institution":"University of Melbourne","status":"awarded","statusWording":"Awarded","year":2008,"supervisorRole":"unspecified","thesisTitle":"Vascular, neuronal and glial cell changes in retinopathy of prematurity","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Direct public statement","note":"Laura Downie publicly named Michael Pianta as one of her PhD supervisors."},
+    {"id":"R077","supervisorId":"P001","candidateId":"P066","degreeType":"MScOptom","institution":"University of Melbourne","status":"awarded","statusWording":"Awarded","year":1985,"supervisorRole":"unspecified","thesisTitle":"Conjunctival oxygen uptake and its relevance to contact lens wear","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R078","supervisorId":"P001","candidateId":"P067","degreeType":"MScOptom","institution":"University of Melbourne","status":"awarded","statusWording":"Awarded","year":1986,"supervisorRole":"unspecified","thesisTitle":"Visual performance with hydrogel contact lenses","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R079","supervisorId":"P001","candidateId":"P068","degreeType":"MScOptom","institution":"University of Melbourne","status":"awarded","statusWording":"Awarded","year":1988,"supervisorRole":"unspecified","thesisTitle":"Distribution of oxygen at the corneal surface beneath hydrogel contact lenses","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R080","supervisorId":"P001","candidateId":"P009","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":1993,"supervisorRole":"unspecified","thesisTitle":"Oxygen permeability, refractive index and scratch resistance of rigid contact lens materials","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R081","supervisorId":"P001","candidateId":"P010","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":1994,"supervisorRole":"unspecified","thesisTitle":"Verification of soft contact lenses: a question of repeatability","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R082","supervisorId":"P001","candidateId":"P069","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":1994,"supervisorRole":"unspecified","thesisTitle":"Effect of eye rubbing on central corneal curvature and thickness","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R083","supervisorId":"P001","candidateId":"P070","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":1994,"supervisorRole":"unspecified","thesisTitle":"Soft contact lens quality","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R084","supervisorId":"P001","candidateId":"P071","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":1994,"supervisorRole":"unspecified","thesisTitle":"Does solution cost affect compliance among contact lens wearers?","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R085","supervisorId":"P001","candidateId":"P072","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":1995,"supervisorRole":"unspecified","thesisTitle":"Factors contributing to the dehydration of hydrogel contact lenses during wear","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R086","supervisorId":"P001","candidateId":"P073","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":1995,"supervisorRole":"unspecified","thesisTitle":"Evaluation of endothelial assessment using the Topcon Specular Microscope SP1000 in clinical practice","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R087","supervisorId":"P001","candidateId":"P074","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":1996,"supervisorRole":"unspecified","thesisTitle":"Radical change to back optic zone radii of rigid gas permeable contact lenses","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R088","supervisorId":"P001","candidateId":"P075","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":1998,"supervisorRole":"unspecified","thesisTitle":"Precision of grading scales for contact lens complications","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R089","supervisorId":"P001","candidateId":"P076","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":1999,"supervisorRole":"unspecified","thesisTitle":"Precision of grading scales and morphs by practitioners and non-practitioners","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R090","supervisorId":"P001","candidateId":"P077","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":1999,"supervisorRole":"unspecified","thesisTitle":"Confocal microscopy of corneal nerves in contact lens wearers","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R091","supervisorId":"P001","candidateId":"P078","degreeType":"MPhil","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2000,"supervisorRole":"unspecified","thesisTitle":"Safety and efficacy of daily wear daily disposable contact lenses","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R092","supervisorId":"P001","candidateId":"P021","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2004,"supervisorRole":"unspecified","thesisTitle":"Confocal microscopy of the limbus in contact lens wearers","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R093","supervisorId":"P001","candidateId":"P079","degreeType":"MAppSci","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2008,"supervisorRole":"unspecified","thesisTitle":"Confocal microscopy of the conjunctival response to contact lens wear","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R094","supervisorId":"P002","candidateId":"P080","degreeType":"MPhil","institution":"UMIST","status":"awarded","statusWording":"Completed","year":2003,"supervisorRole":"unspecified","thesisTitle":"Objective assessment of contact lens discomfort","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MPhil by research identified in an uploaded CV."},
+    {"id":"R095","supervisorId":"P002","candidateId":"P081","degreeType":"MPhil","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2004,"supervisorRole":"unspecified","thesisTitle":"Automatic assessment of soft contact lens positioning and movement","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MPhil by research identified in an uploaded CV."},
+    {"id":"R096","supervisorId":"P002","candidateId":"P082","degreeType":"MPhil","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2005,"supervisorRole":"unspecified","thesisTitle":"The development of novel methods of measuring contact lens visual performance","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MPhil by research identified in an uploaded CV."},
+    {"id":"R097","supervisorId":"P002","candidateId":"P083","degreeType":"MPhil","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2007,"supervisorRole":"unspecified","thesisTitle":"The correction of higher order ocular aberrations with contact lenses","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MPhil by research identified in an uploaded CV."},
+    {"id":"R098","supervisorId":"P002","candidateId":"P084","degreeType":"MSc","institution":"UMIST","status":"awarded","statusWording":"Completed","year":1996,"supervisorRole":"project supervisor","thesisTitle":"Corneal topography of a family with known keratoconic patients","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R099","supervisorId":"P002","candidateId":"P085","degreeType":"MSc","institution":"UMIST","status":"awarded","statusWording":"Completed","year":1996,"supervisorRole":"project supervisor","thesisTitle":"Visual performance in myopic subjects implanted with the Intrastromal Corneal Ring","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R100","supervisorId":"P002","candidateId":"P086","degreeType":"MSc","institution":"UMIST","status":"awarded","statusWording":"Completed","year":1997,"supervisorRole":"project supervisor","thesisTitle":"Corneal temperature change during photorefractive keratectomy","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R101","supervisorId":"P002","candidateId":"P015","degreeType":"MSc","institution":"UMIST","status":"awarded","statusWording":"Completed","year":1997,"supervisorRole":"project supervisor","thesisTitle":"Thermal and histological consequences of photorefractive keratectomy","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV and corroborated by the candidate's CV."},
+    {"id":"R102","supervisorId":"P002","candidateId":"P087","degreeType":"MSc","institution":"UMIST","status":"awarded","statusWording":"Completed","year":1998,"supervisorRole":"project supervisor","thesisTitle":"Photorefractive keratectomy and pain control: comparison of two non-steroidal anti-inflammatory drugs","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R103","supervisorId":"P002","candidateId":"P016","degreeType":"MSc","institution":"UMIST","status":"awarded","statusWording":"Completed","year":1998,"supervisorRole":"project supervisor","thesisTitle":"The comparative fitting performance of three daily disposable contact lenses","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R104","supervisorId":"P002","candidateId":"P088","degreeType":"MSc","institution":"UMIST","status":"awarded","statusWording":"Completed","year":1999,"supervisorRole":"project supervisor","thesisTitle":"An investigation into cooling the cornea using chilled saline","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R105","supervisorId":"P002","candidateId":"P089","degreeType":"MSc","institution":"UMIST","status":"awarded","statusWording":"Completed","year":2004,"supervisorRole":"project supervisor","thesisTitle":"Calculation of oxygen flux with soft toric contact lenses","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R106","supervisorId":"P002","candidateId":"P090","degreeType":"MSc","institution":"UMIST","status":"awarded","statusWording":"Completed","year":2004,"supervisorRole":"project supervisor","thesisTitle":"Oxygen permeability of silicone hydrogel contact lens materials","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R107","supervisorId":"P002","candidateId":"P091","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2006,"supervisorRole":"project supervisor","thesisTitle":"A novel method of assessment of ocular surface redness","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R108","supervisorId":"P002","candidateId":"P092","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2006,"supervisorRole":"project supervisor","thesisTitle":"In vivo contact lens wettability","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R109","supervisorId":"P002","candidateId":"P093","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2008,"supervisorRole":"project supervisor","thesisTitle":"The aetiology of solution-induced corneal staining","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R110","supervisorId":"P002","candidateId":"P094","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2011,"supervisorRole":"project supervisor","thesisTitle":"Corneal confocal microscopy in glaucoma","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R111","supervisorId":"P002","candidateId":"P095","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2017,"supervisorRole":"project supervisor","thesisTitle":"Assessment of blink characteristics with and without contact lenses","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R112","supervisorId":"P002","candidateId":"P096","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2019,"supervisorRole":"project supervisor","thesisTitle":"Assessment of diurnal variations in ocular light scatter in contact lens wearers","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R113","supervisorId":"P002","candidateId":"P097","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2021,"supervisorRole":"project supervisor","thesisTitle":"Monovision and anisometropia","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MSc research project identified in an uploaded CV."},
+    {"id":"R114","supervisorId":"P015","candidateId":"P098","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2008,"supervisorRole":"unspecified","thesisTitle":"An investigation of the aetiology of solution-induced corneal staining","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed MSc supervision identified in an uploaded CV."}
   ],
   "reportedTotals": [
     {
