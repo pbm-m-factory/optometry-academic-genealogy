@@ -15,6 +15,10 @@ function statusLabel(status) {
   return status === "not_completed" ? "Not completed" : status[0].toUpperCase() + status.slice(1);
 }
 
+function sourceLabel(relationship) {
+  return relationship.evidenceSourceId === "Public institutional record" ? "Public institutional record" : "Uploaded document";
+}
+
 function Badge({ children, tone = "neutral" }) {
   return <span className={`badge badge-${tone}`}>{children}</span>;
 }
@@ -108,7 +112,7 @@ function PedigreeTree({ data, model, selectedId, onSelect }) {
     <section className="pedigree-section">
       <div className="section-heading">
         <div><p className="eyebrow">Whole network</p><h2>Interactive pedigree</h2></div>
-        <p>Each line runs from a doctoral supervisor to a candidate. Select a person to highlight their immediate academic family.</p>
+        <p>Each line runs from a postgraduate supervisor to a candidate. Degree types are shown on candidate nodes; select a person to highlight their immediate academic family.</p>
       </div>
       <div className="tree-toolbar">
         <div className="tree-selected"><span>Selected</span><strong>{compactName(selected.name)}</strong></div>
@@ -139,6 +143,8 @@ function PedigreeTree({ data, model, selectedId, onSelect }) {
             {data.people.map((person) => {
               const position = layout.positions[person.id];
               const isSelected = person.id === selectedId;
+              const degreeTypes = [...new Set((model.parentsByPerson[person.id] || []).map((item) => item.degreeType))];
+              const degreeSummary = degreeTypes.length ? degreeTypes.join(" / ") : "Supervisor";
               const isRelative = (model.parentsByPerson[selectedId] || []).some((item) => item.supervisorId === person.id)
                 || (model.childrenByPerson[selectedId] || []).some((item) => item.candidateId === person.id);
               return (
@@ -150,7 +156,7 @@ function PedigreeTree({ data, model, selectedId, onSelect }) {
                 >
                   <span>{person.id}</span>
                   <strong>{compactName(person.name)}</strong>
-                  <small>Generation {position.rank + 1}</small>
+                  <small>{degreeSummary} · Gen {position.rank + 1}</small>
                 </button>
               );
             })}
@@ -217,7 +223,7 @@ export default function Home() {
   const evidenceRows = data.relationships.filter((relationship) => {
     const supervisor = model.peopleById[relationship.supervisorId]?.name || "";
     const candidate = model.peopleById[relationship.candidateId]?.name || "";
-    const haystack = [supervisor, candidate, relationship.thesisTitle, relationship.institution].join(" ").toLowerCase();
+    const haystack = [supervisor, candidate, relationship.degreeType, relationship.thesisTitle, relationship.institution].join(" ").toLowerCase();
     return haystack.includes(directoryQuery.toLowerCase());
   });
 
@@ -238,11 +244,11 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">An evidence-led academic family tree</p>
           <h1>Tracing the people who shaped <span>optometry research.</span></h1>
-          <p className="intro">Explore doctoral supervision across optometry and vision science—one thesis, mentor and academic generation at a time.</p>
+          <p className="intro">Explore postgraduate supervision across optometry and vision science—one degree, thesis, mentor and academic generation at a time.</p>
           <SearchBox value={query} onChange={setQuery} people={data.people} onPick={pickPerson} />
         </div>
         <div className="hero-graphic" aria-hidden="true">
-          <div className="orbit orbit-one"><span>PhD</span></div>
+          <div className="orbit orbit-one"><span>PG</span></div>
           <div className="orbit orbit-two"><span>1994</span></div>
           <div className="orbit orbit-three"><span>2001</span></div>
           <div className="root-word">lineage</div>
@@ -252,7 +258,7 @@ export default function Home() {
       <section className="stats" aria-label="Dataset summary">
         <div><strong>{data.people.length}</strong><span>people identified</span></div>
         <div><strong>{data.relationships.length}</strong><span>named supervision links</span></div>
-        <div><strong>{data.relationships.filter((item) => item.status === "awarded").length}</strong><span>completed doctorates</span></div>
+        <div><strong>{data.relationships.filter((item) => item.status === "awarded").length}</strong><span>completed postgraduate links</span></div>
         <div><strong>{data.sources.length}</strong><span>uploaded documents reviewed</span></div>
       </section>
 
@@ -268,7 +274,7 @@ export default function Home() {
               <div className="lineage-column">
                 <p className="column-label">Academic parents</p>
                 {parentLinks.length ? parentLinks.map((relationship) => (
-                  <PersonButton key={relationship.id} person={model.peopleById[relationship.supervisorId]} onSelect={pickPerson} direction="Supervisor" meta={`${relationship.institution} · ${relationship.year || "Year unknown"}`} />
+                  <PersonButton key={relationship.id} person={model.peopleById[relationship.supervisorId]} onSelect={pickPerson} direction={`${relationship.degreeType} supervisor`} meta={`${relationship.institution} · ${relationship.year || "Year unknown"}`} />
                 )) : <div className="empty-card">No parent relationship is yet evidenced in the current sources.</div>}
               </div>
 
@@ -284,14 +290,15 @@ export default function Home() {
                 {selected.note && <p className="profile-note">{selected.note}</p>}
                 {parentLinks.map((relationship) => (
                   <div className="thesis-block" key={relationship.id}>
-                    <span>Doctoral thesis</span>
+                    <span>{relationship.degreeType} thesis</span>
                     <strong>{relationship.thesisTitle}</strong>
-                    <small>{relationship.institution} · {relationship.year}</small>
+                    <small>{relationship.institution} · {relationship.year || "In progress"} · {relationship.supervisorRole}</small>
                   </div>
                 ))}
                 {aggregate && (
                   <div className="aggregate-note">
                     <strong>{aggregate.completedPhdCount} completed + {aggregate.activePhdCount} active PhD students reported</strong>
+                    <strong>{aggregate.completedMscCount} completed + {aggregate.activeMscCount} active MSc students reported</strong>
                     <span>Names are not provided in the uploaded document, so these are not shown as individual relationships.</span>
                   </div>
                 )}
@@ -301,15 +308,15 @@ export default function Home() {
                 <p className="column-label">Academic children <span>{childLinks.length}</span></p>
                 <div className="children-scroll">
                   {childLinks.length ? childLinks.map((relationship) => (
-                    <PersonButton key={relationship.id} person={model.peopleById[relationship.candidateId]} onSelect={pickPerson} direction={statusLabel(relationship.status)} meta={`${relationship.year || "In progress"} · ${relationship.supervisorRole}`} />
-                  )) : <div className="empty-card">No named doctoral children are present in the current sources.</div>}
+                    <PersonButton key={relationship.id} person={model.peopleById[relationship.candidateId]} onSelect={pickPerson} direction={`${relationship.degreeType} · ${statusLabel(relationship.status)}`} meta={`${relationship.year || "In progress"} · ${relationship.supervisorRole}`} />
+                  )) : <div className="empty-card">No named postgraduate children are present in the current sources.</div>}
                 </div>
               </div>
             </div>
 
             <div className="method-strip">
               <div><p className="eyebrow">Reading the tree</p><h3>A network, not a pedigree.</h3></div>
-              <p>Doctorates can have several supervisors. Shared supervision creates siblings, half-siblings and intersecting branches. Every line in this preview is supported by an uploaded document.</p>
+              <p>Postgraduate degrees can have several supervisors. Shared supervision creates siblings, half-siblings and intersecting branches. The actual degree—such as PhD, MPhil or DSc—is retained for every relationship.</p>
               <button onClick={() => setTab("evidence")}>See the evidence <span>→</span></button>
             </div>
           </section>
@@ -340,22 +347,23 @@ export default function Home() {
 
         {tab === "evidence" && (
           <section className="evidence-section">
-            <div className="section-heading"><div><p className="eyebrow">Source overview</p><h2>Document-supported relationships</h2></div><p>Source documents are used to verify the network. Personal document details, filenames and page references are not displayed.</p></div>
+            <div className="section-heading"><div><p className="eyebrow">Source overview</p><h2>Evidence-supported relationships</h2></div><p>Uploaded documents and public institutional records are used to verify the network. Personal document details, filenames and page references are not displayed.</p></div>
             <div className="source-grid">
-              {data.sources.map((source, index) => <article className="source-card" key={source.id}><span>Document {index + 1}</span><h3>Uploaded document</h3><p>Private source record</p><small>Used to support named doctoral supervision relationships.</small></article>)}
+              {data.sources.map((source, index) => <article className="source-card" key={source.id}><span>Document {index + 1}</span><h3>Uploaded document</h3><p>Private source record</p><small>Used to support named postgraduate supervision relationships.</small></article>)}
+              <article className="source-card"><span>Public sources</span><h3>Institutional records</h3><p>Official source records</p><small>Used without displaying detailed evidence trails on the public site.</small></article>
             </div>
             <div className="evidence-table-wrap">
               <div className="table-tools"><h3>Named supervision records</h3><SearchBox value={directoryQuery} onChange={setDirectoryQuery} people={[]} placeholder="Filter relationships" /></div>
               <div className="evidence-table" role="table">
-                <div className="evidence-row evidence-header" role="row"><span>Supervisor → candidate</span><span>Doctorate</span><span>Source</span></div>
-                {evidenceRows.map((relationship) => <button className="evidence-row" role="row" key={relationship.id} onClick={() => pickPerson(relationship.candidateId)}><span><strong>{compactName(model.peopleById[relationship.supervisorId].name)} → {compactName(model.peopleById[relationship.candidateId].name)}</strong><small>{relationship.institution}</small></span><span><strong>{relationship.year || "Ongoing"} · {statusLabel(relationship.status)}</strong><small>{relationship.thesisTitle}</small></span><span><Badge tone="neutral">Uploaded document</Badge></span></button>)}
+                <div className="evidence-row evidence-header" role="row"><span>Supervisor → candidate</span><span>Degree / award</span><span>Source</span></div>
+                {evidenceRows.map((relationship) => <button className="evidence-row" role="row" key={relationship.id} onClick={() => pickPerson(relationship.candidateId)}><span><strong>{compactName(model.peopleById[relationship.supervisorId].name)} → {compactName(model.peopleById[relationship.candidateId].name)}</strong><small>{relationship.institution}</small></span><span><strong>{relationship.degreeType} · {relationship.year || "Ongoing"} · {statusLabel(relationship.status)}</strong><small>{relationship.thesisTitle}</small></span><span><Badge tone="neutral">{sourceLabel(relationship)}</Badge></span></button>)}
               </div>
             </div>
           </section>
         )}
       </div>
 
-      <footer><div className="brand footer-brand"><span className="brand-mark">O</span><span>Optometry<br /><em>Academic Genealogy</em></span></div><p>A research preview built from uploaded-document evidence. Corrections and further primary sources are welcomed.</p><span>Dataset updated {data.generatedAt}</span></footer>
+      <footer><div className="brand footer-brand"><span className="brand-mark">O</span><span>Optometry<br /><em>Academic Genealogy</em></span></div><p>A research preview built from uploaded documents and public institutional evidence. Corrections and further primary sources are welcomed.</p><span>Dataset updated {data.generatedAt}</span></footer>
     </main>
   );
 }

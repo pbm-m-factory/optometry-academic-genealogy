@@ -241,10 +241,10 @@
     },
     {
       "id": "P035",
-      "name": "L. Tan",
-      "nameAsSource": "Tan L.",
-      "identityStatus": "initials_only",
-      "note": ""
+      "name": "Li Li Tan",
+      "nameAsSource": "Li Li Tan; Tan L.",
+      "identityStatus": "named",
+      "note": "Full name confirmed by an official institutional thesis record."
     },
     {
       "id": "P036",
@@ -255,10 +255,10 @@
     },
     {
       "id": "P037",
-      "name": "Tahhmina Kahn",
-      "nameAsSource": "Tahhmina Kahn; Khan T.",
+      "name": "Tahmina Khan",
+      "nameAsSource": "Tahmina Khan; Khan T.",
       "identityStatus": "named",
-      "note": ""
+      "note": "Name spelling confirmed by an official institutional thesis record."
     },
     {
       "id": "P038",
@@ -269,10 +269,10 @@
     },
     {
       "id": "P039",
-      "name": "Haziq Bin Saliman",
-      "nameAsSource": "Haziq Bin Saliman; Saliman NHB.",
+      "name": "Noor Haziq Bin Saliman",
+      "nameAsSource": "Noor Haziq Bin Saliman; Haziq Bin Saliman; Saliman NHB.",
       "identityStatus": "named",
-      "note": ""
+      "note": "Full name confirmed by an official institutional thesis record."
     },
     {
       "id": "P040",
@@ -290,10 +290,10 @@
     },
     {
       "id": "P042",
-      "name": "Kassandra Swiderska",
-      "nameAsSource": "Kassandra Swiderska; Swiderska K.",
+      "name": "Kasandra Swiderska",
+      "nameAsSource": "Kasandra Swiderska; Swiderska K.",
       "identityStatus": "named",
-      "note": ""
+      "note": "Name spelling confirmed by an official institutional thesis record."
     },
     {
       "id": "P043",
@@ -325,10 +325,10 @@
     },
     {
       "id": "P047",
-      "name": "K. Khan-Israeel",
-      "nameAsSource": "Khan-Israeel K.",
-      "identityStatus": "initials_only",
-      "note": ""
+      "name": "Talha Khan-Israeel",
+      "nameAsSource": "Talha Khan-Israeel; Khan-Israeel K.",
+      "identityStatus": "named",
+      "note": "Identity confirmed by the project owner and supported by an official institutional profile with an exact thesis-title match."
     },
     {
       "id": "P048",
@@ -357,6 +357,62 @@
       "nameAsSource": "Alastair Selby",
       "identityStatus": "named",
       "note": ""
+    },
+    {
+      "id": "P052",
+      "name": "Curtis Dobson",
+      "nameAsSource": "Curtis Dobson",
+      "identityStatus": "named",
+      "note": "Supervisor identified in official institutional thesis records."
+    },
+    {
+      "id": "P053",
+      "name": "Andrew McBain",
+      "nameAsSource": "Andrew McBain",
+      "identityStatus": "named",
+      "note": "Supervisor identified in an official institutional thesis record."
+    },
+    {
+      "id": "P054",
+      "name": "Michael Read",
+      "nameAsSource": "Michael Read",
+      "identityStatus": "named",
+      "note": "Supervisor identified in official institutional thesis records."
+    },
+    {
+      "id": "P055",
+      "name": "Martin Fergie",
+      "nameAsSource": "Martin Fergie",
+      "identityStatus": "named",
+      "note": "Supervisor identified in an official institutional thesis record."
+    },
+    {
+      "id": "P056",
+      "name": "Sean Gavan",
+      "nameAsSource": "Sean Gavan",
+      "identityStatus": "named",
+      "note": "Supervisor of an ongoing PhD identified in an official institutional profile."
+    },
+    {
+      "id": "P057",
+      "name": "Rachel Elliott",
+      "nameAsSource": "Rachel Elliott",
+      "identityStatus": "named",
+      "note": "Supervisor of an ongoing PhD identified in an official institutional profile."
+    },
+    {
+      "id": "P058",
+      "name": "Sarah Smith",
+      "nameAsSource": "Sarah Smith",
+      "identityStatus": "named",
+      "note": "MPhil candidate identified in an official institutional thesis record."
+    },
+    {
+      "id": "P059",
+      "name": "James Wolffsohn",
+      "nameAsSource": "James Wolffsohn",
+      "identityStatus": "named",
+      "note": "DSc candidate identified in an official institutional thesis record."
     }
   ],
   "relationships": [
@@ -912,13 +968,13 @@
       "institution": "University of Manchester",
       "status": "awarded",
       "statusWording": "Completed",
-      "year": 2016,
-      "supervisorRole": "unspecified",
-      "thesisTitle": "Dry eyes and ocular thermography",
-      "evidenceSourceId": "Uploaded document",
+      "year": 2017,
+      "supervisorRole": "main supervisor",
+      "thesisTitle": "Assessment of Dry Eyes Using Ocular Surface Thermography",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "Full name, award date, title and role confirmed by an official institutional thesis record."
     },
     {
       "id": "R036",
@@ -945,12 +1001,12 @@
       "status": "awarded",
       "statusWording": "Completed",
       "year": 2018,
-      "supervisorRole": "unspecified",
-      "thesisTitle": "Interaction of contact lens solutions at the ocular surface",
-      "evidenceSourceId": "Uploaded document",
+      "supervisorRole": "co-supervisor",
+      "thesisTitle": "Investigation of the Biological and Chemical Basis Underpinning Contact Lens Solution Induced Corneal Staining",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "Name spelling, formal title and role confirmed by an official institutional thesis record."
     },
     {
       "id": "R038",
@@ -977,12 +1033,12 @@
       "status": "awarded",
       "statusWording": "Completed",
       "year": 2019,
-      "supervisorRole": "unspecified",
+      "supervisorRole": "main supervisor",
       "thesisTitle": "Characterising the Inflammatory Response of the Ocular Surface and Adnexa to Contact Lens Wear",
-      "evidenceSourceId": "Uploaded document",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "Full candidate name and role confirmed by an official institutional thesis record."
     },
     {
       "id": "R040",
@@ -1009,12 +1065,12 @@
       "status": "awarded",
       "statusWording": "Completed",
       "year": 2021,
-      "supervisorRole": "unspecified",
-      "thesisTitle": "Development of a three dimensional in vitro model of the human cornea to dissect the inflammatory events associated with sight-threatening ocular pathogens",
-      "evidenceSourceId": "Uploaded document",
+      "supervisorRole": "co-supervisor",
+      "thesisTitle": "Modelling Pseudomonas Aeruginosa Infections of the Ocular Surface",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "Formal title and role confirmed by an official institutional thesis record."
     },
     {
       "id": "R042",
@@ -1025,12 +1081,12 @@
       "status": "awarded",
       "statusWording": "Completed",
       "year": 2023,
-      "supervisorRole": "unspecified",
+      "supervisorRole": "main supervisor",
       "thesisTitle": "Dynamic characterisation of Meibomian gland structure",
-      "evidenceSourceId": "Uploaded document",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "Candidate spelling and role confirmed by an official institutional thesis record."
     },
     {
       "id": "R043",
@@ -1101,16 +1157,16 @@
       "supervisorId": "P002",
       "candidateId": "P047",
       "degreeType": "PhD",
-      "institution": "",
+      "institution": "University of Manchester",
       "status": "ongoing",
       "statusWording": "Ongoing",
       "year": null,
       "supervisorRole": "unspecified",
-      "thesisTitle": "Estimating the economic impact of myopia and key therapeutic interventions",
-      "evidenceSourceId": "Uploaded document",
+      "thesisTitle": "Estimating the Economic Impact of Myopia and Key Therapeutic Interventions",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": "Institution is not stated in the uploaded-document entry."
+      "evidenceLevel": "Official institutional profile",
+      "note": "Candidate identity confirmed by the project owner; institutional profile supplies the full name, institution and supervisory team."
     },
     {
       "id": "R048",
@@ -1233,12 +1289,12 @@
       "status": "awarded",
       "statusWording": "Successfully completed",
       "year": 2018,
-      "supervisorRole": "unspecified",
-      "thesisTitle": "Understanding the cellular and molecular basis for increased fluorescein interactions with epithelial cells after exposure to toxins or irritants",
-      "evidenceSourceId": "Uploaded document",
+      "supervisorRole": "co-supervisor",
+      "thesisTitle": "Investigation of the Biological and Chemical Basis Underpinning Contact Lens Solution Induced Corneal Staining",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "Name spelling, formal title and role confirmed by an official institutional thesis record."
     },
     {
       "id": "R056",
@@ -1249,12 +1305,12 @@
       "status": "awarded",
       "statusWording": "Successfully completed",
       "year": 2019,
-      "supervisorRole": "unspecified",
-      "thesisTitle": "Characterising the inflammatory response of the ocular surface and adnexa to a contact lens stimulus",
-      "evidenceSourceId": "Uploaded document",
+      "supervisorRole": "co-supervisor",
+      "thesisTitle": "Characterising the Inflammatory Response of the Ocular Surface and Adnexa to Contact Lens Wear",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "Full candidate name, formal title and role confirmed by an official institutional thesis record."
     },
     {
       "id": "R057",
@@ -1265,12 +1321,12 @@
       "status": "awarded",
       "statusWording": "Completed",
       "year": 2021,
-      "supervisorRole": "unspecified",
-      "thesisTitle": "Development of a three dimensional in vitro model of the human cornea to dissect the inflammatory events associated with sight-threatening ocular pathogens",
-      "evidenceSourceId": "Uploaded document",
+      "supervisorRole": "co-supervisor",
+      "thesisTitle": "Modelling Pseudomonas Aeruginosa Infections of the Ocular Surface",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": "The uploaded document records commencement; completion is corroborated by another uploaded document."
+      "evidenceLevel": "Official thesis record",
+      "note": "Completion, formal title and role confirmed by an official institutional thesis record."
     },
     {
       "id": "R058",
@@ -1281,12 +1337,12 @@
       "status": "awarded",
       "statusWording": "Completed",
       "year": 2023,
-      "supervisorRole": "unspecified",
+      "supervisorRole": "co-supervisor",
       "thesisTitle": "Dynamic characterisation of Meibomian gland structure",
-      "evidenceSourceId": "Uploaded document",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": "The uploaded document records commencement; completion is corroborated by another uploaded document."
+      "evidenceLevel": "Official thesis record",
+      "note": "Completion, candidate spelling and role confirmed by an official institutional thesis record."
     },
     {
       "id": "R059",
@@ -1303,6 +1359,198 @@
       "sourcePage": null,
       "evidenceLevel": "Document-supported",
       "note": ""
+    },
+    {
+      "id": "R060",
+      "supervisorId": "P052",
+      "candidateId": "P037",
+      "degreeType": "PhD",
+      "institution": "University of Manchester",
+      "status": "awarded",
+      "statusWording": "Awarded",
+      "year": 2018,
+      "supervisorRole": "main supervisor",
+      "thesisTitle": "Investigation of the Biological and Chemical Basis Underpinning Contact Lens Solution Induced Corneal Staining",
+      "evidenceSourceId": "Public institutional record",
+      "sourcePage": null,
+      "evidenceLevel": "Official thesis record",
+      "note": "New relationship confirmed by an official institutional thesis record."
+    },
+    {
+      "id": "R061",
+      "supervisorId": "P053",
+      "candidateId": "P041",
+      "degreeType": "PhD",
+      "institution": "University of Manchester",
+      "status": "awarded",
+      "statusWording": "Awarded",
+      "year": 2021,
+      "supervisorRole": "main supervisor",
+      "thesisTitle": "Modelling Pseudomonas Aeruginosa Infections of the Ocular Surface",
+      "evidenceSourceId": "Public institutional record",
+      "sourcePage": null,
+      "evidenceLevel": "Official thesis record",
+      "note": "New relationship confirmed by an official institutional thesis record."
+    },
+    {
+      "id": "R062",
+      "supervisorId": "P052",
+      "candidateId": "P041",
+      "degreeType": "PhD",
+      "institution": "University of Manchester",
+      "status": "awarded",
+      "statusWording": "Awarded",
+      "year": 2021,
+      "supervisorRole": "co-supervisor",
+      "thesisTitle": "Modelling Pseudomonas Aeruginosa Infections of the Ocular Surface",
+      "evidenceSourceId": "Public institutional record",
+      "sourcePage": null,
+      "evidenceLevel": "Official thesis record",
+      "note": "New relationship confirmed by an official institutional thesis record."
+    },
+    {
+      "id": "R063",
+      "supervisorId": "P054",
+      "candidateId": "P042",
+      "degreeType": "PhD",
+      "institution": "University of Manchester",
+      "status": "awarded",
+      "statusWording": "Awarded",
+      "year": 2023,
+      "supervisorRole": "co-supervisor",
+      "thesisTitle": "Dynamic characterisation of Meibomian gland structure",
+      "evidenceSourceId": "Public institutional record",
+      "sourcePage": null,
+      "evidenceLevel": "Official thesis record",
+      "note": "New relationship confirmed by an official institutional thesis record."
+    },
+    {
+      "id": "R064",
+      "supervisorId": "P055",
+      "candidateId": "P042",
+      "degreeType": "PhD",
+      "institution": "University of Manchester",
+      "status": "awarded",
+      "statusWording": "Awarded",
+      "year": 2023,
+      "supervisorRole": "co-supervisor",
+      "thesisTitle": "Dynamic characterisation of Meibomian gland structure",
+      "evidenceSourceId": "Public institutional record",
+      "sourcePage": null,
+      "evidenceLevel": "Official thesis record",
+      "note": "New relationship confirmed by an official institutional thesis record."
+    },
+    {
+      "id": "R065",
+      "supervisorId": "P056",
+      "candidateId": "P047",
+      "degreeType": "PhD",
+      "institution": "University of Manchester",
+      "status": "ongoing",
+      "statusWording": "Ongoing",
+      "year": null,
+      "supervisorRole": "unspecified",
+      "thesisTitle": "Estimating the Economic Impact of Myopia and Key Therapeutic Interventions",
+      "evidenceSourceId": "Public institutional record",
+      "sourcePage": null,
+      "evidenceLevel": "Official institutional profile",
+      "note": "Candidate identity confirmed by the project owner."
+    },
+    {
+      "id": "R066",
+      "supervisorId": "P057",
+      "candidateId": "P047",
+      "degreeType": "PhD",
+      "institution": "University of Manchester",
+      "status": "ongoing",
+      "statusWording": "Ongoing",
+      "year": null,
+      "supervisorRole": "unspecified",
+      "thesisTitle": "Estimating the Economic Impact of Myopia and Key Therapeutic Interventions",
+      "evidenceSourceId": "Public institutional record",
+      "sourcePage": null,
+      "evidenceLevel": "Official institutional profile",
+      "note": "Candidate identity confirmed by the project owner."
+    },
+    {
+      "id": "R067",
+      "supervisorId": "P015",
+      "candidateId": "P047",
+      "degreeType": "PhD",
+      "institution": "University of Manchester",
+      "status": "ongoing",
+      "statusWording": "Ongoing",
+      "year": null,
+      "supervisorRole": "unspecified",
+      "thesisTitle": "Estimating the Economic Impact of Myopia and Key Therapeutic Interventions",
+      "evidenceSourceId": "Public institutional record",
+      "sourcePage": null,
+      "evidenceLevel": "Official institutional profile",
+      "note": "Candidate identity confirmed by the project owner."
+    },
+    {
+      "id": "R068",
+      "supervisorId": "P054",
+      "candidateId": "P058",
+      "degreeType": "MPhil",
+      "institution": "University of Manchester",
+      "status": "awarded",
+      "statusWording": "Awarded",
+      "year": 2024,
+      "supervisorRole": "main supervisor",
+      "thesisTitle": "Eye Movements in the Refractive Correction of Presbyopia",
+      "evidenceSourceId": "Public institutional record",
+      "sourcePage": null,
+      "evidenceLevel": "Official thesis record",
+      "note": "Included following expansion of the genealogy to non-PhD postgraduate degrees."
+    },
+    {
+      "id": "R069",
+      "supervisorId": "P002",
+      "candidateId": "P058",
+      "degreeType": "MPhil",
+      "institution": "University of Manchester",
+      "status": "awarded",
+      "statusWording": "Awarded",
+      "year": 2024,
+      "supervisorRole": "co-supervisor",
+      "thesisTitle": "Eye Movements in the Refractive Correction of Presbyopia",
+      "evidenceSourceId": "Public institutional record",
+      "sourcePage": null,
+      "evidenceLevel": "Official thesis record",
+      "note": "Included following expansion of the genealogy to non-PhD postgraduate degrees."
+    },
+    {
+      "id": "R070",
+      "supervisorId": "P015",
+      "candidateId": "P058",
+      "degreeType": "MPhil",
+      "institution": "University of Manchester",
+      "status": "awarded",
+      "statusWording": "Awarded",
+      "year": 2024,
+      "supervisorRole": "co-supervisor",
+      "thesisTitle": "Eye Movements in the Refractive Correction of Presbyopia",
+      "evidenceSourceId": "Public institutional record",
+      "sourcePage": null,
+      "evidenceLevel": "Official thesis record",
+      "note": "Included following expansion of the genealogy to non-PhD postgraduate degrees."
+    },
+    {
+      "id": "R071",
+      "supervisorId": "P002",
+      "candidateId": "P059",
+      "degreeType": "DSc",
+      "institution": "University of Manchester",
+      "status": "awarded",
+      "statusWording": "Awarded",
+      "year": 2025,
+      "supervisorRole": "main supervisor",
+      "thesisTitle": "Enhancing Clinical Assessment for Improved Ophthalmic Management",
+      "evidenceSourceId": "Public institutional record",
+      "sourcePage": null,
+      "evidenceLevel": "Official thesis record",
+      "note": "Included following expansion of the genealogy to non-PhD postgraduate degrees."
     }
   ],
   "reportedTotals": [
