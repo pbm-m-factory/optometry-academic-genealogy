@@ -55,15 +55,14 @@
         "personIds": ["P024", "P133"],
         "status": "distinct",
         "note": "The QUT thesis title page identifies P024 as Sangeetha Srinivasan; P133 is Sruthi Srinivasan at the University of Waterloo."
-      }
-    ],
-    "unresolved": [
+      },
       {
         "personIds": ["P058", "P175"],
-        "status": "unresolved",
-        "note": "Two Sarah Smith records have different degrees, institutions and years. They remain separate pending person-specific evidence."
+        "status": "distinct",
+        "note": "Confirmed by the project owner as two different people. P058 completed an MPhil at the University of Manchester in 2024; P175 completed a PhD at Aston University in 2012."
       }
-    ]
+    ],
+    "unresolved": []
   },
   "people": [
     {
@@ -989,7 +988,7 @@
     {"id":"P172","name":"G. K. Rai","nameAsSource":"Rai, G. K.","identityStatus":"initials_only","note":""},
     {"id":"P173","name":"M. Cardall","nameAsSource":"Cardall, M.","identityStatus":"initials_only","note":""},
     {"id":"P174","name":"G. A. Gibson","nameAsSource":"Gibson, G. A.","identityStatus":"initials_only","note":""},
-    {"id":"P175","name":"Sarah Smith","nameAsSource":"Smith, Sarah J.; Sarah Smith","identityStatus":"named","note":""},
+    {"id":"P175","name":"Sarah J. Smith","canonicalName":"Sarah J. Smith","aliases":["Sarah Smith","Sarah J. Smith"],"nameAsSource":"Smith, Sarah J.; Sarah Smith","identityStatus":"named","note":"Distinct from P058 Sarah Smith; confirmed by the project owner."},
     {"id":"P176","name":"J. Davies","nameAsSource":"Davies, J.","identityStatus":"initials_only","note":""},
     {"id":"P177","name":"Mark Prince","nameAsSource":"Mark Prince","identityStatus":"named","note":""},
     {"id":"P178","name":"Thomas Drew","nameAsSource":"Drew, T.; Thomas Drew","identityStatus":"named","note":"Aston records identify both graduate and supervisory roles."},
