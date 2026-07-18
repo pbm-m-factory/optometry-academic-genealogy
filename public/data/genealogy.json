@@ -1,5 +1,32 @@
 {
-  "generatedAt": "2026-07-17",
+  "generatedAt": "2026-07-18",
+  "evidenceConfidenceModel": {
+    "confirmed": {
+      "label": "Confirmed",
+      "description": "A thesis, official repository or equivalent institutional record explicitly names the supervisor.",
+      "evidenceLevels": ["Official thesis record", "Institution-supported"]
+    },
+    "supported": {
+      "label": "Supported",
+      "description": "An institutional profile, uploaded CV or direct public statement supports the relationship.",
+      "evidenceLevels": ["Official institutional profile", "Document-supported", "Direct public statement"]
+    },
+    "provisional": {
+      "label": "Provisional",
+      "description": "Credible secondary evidence exists, but confirmation from a primary or institutional source is still required.",
+      "evidenceLevels": ["Provisional"]
+    }
+  },
+  "duplicateReview": {
+    "resolved": [
+      {
+        "canonicalPersonId": "P032",
+        "aliases": ["M. Read", "Michael Read", "Read M."],
+        "status": "merged",
+        "note": "Name variants confirmed as the same person by the project owner."
+      }
+    ]
+  },
   "people": [
     {
       "id": "P001",
@@ -909,7 +936,15 @@
     {"id":"P157","name":"Zheng He","nameAsSource":"He, Zheng","identityStatus":"named","note":""},
     {"id":"P158","name":"Kumiko A. Percival","nameAsSource":"Percival, Kumiko A.","identityStatus":"named","note":""},
     {"id":"P159","name":"Jason Charng","nameAsSource":"Charng, Jason","identityStatus":"named","note":""},
-    {"id":"P160","name":"Daniel M. Adler","nameAsSource":"Adler, Daniel M.","identityStatus":"named","note":""}
+    {"id":"P160","name":"Daniel M. Adler","nameAsSource":"Adler, Daniel M.","identityStatus":"named","note":""},
+    {"id":"P161","name":"Andreea Palage","nameAsSource":"Palage, Andreea","identityStatus":"named","note":""},
+    {"id":"P162","name":"Thomas Willett","nameAsSource":"Willett, Thomas","identityStatus":"named","note":"Named as a co-advisor in Waterloo repository metadata."},
+    {"id":"P163","name":"Zahra Haghpanah","nameAsSource":"Haghpanah, Zahra","identityStatus":"named","note":""},
+    {"id":"P164","name":"Dana Toameh","nameAsSource":"Toameh, Dana","identityStatus":"named","note":""},
+    {"id":"P165","name":"Saman Mohammadi","nameAsSource":"Mohammadi, Saman","identityStatus":"named","note":""},
+    {"id":"P166","name":"Evelyn Yim","nameAsSource":"Yim, Evelyn","identityStatus":"named","note":"Named as a co-advisor in Waterloo repository metadata."},
+    {"id":"P167","name":"Yiran Zhou","nameAsSource":"Zhou, Yiran","identityStatus":"named","note":""},
+    {"id":"P168","name":"Cassandra Huynh","nameAsSource":"Huynh, Cassandra","identityStatus":"named","note":""}
   ],
   "relationships": [
     {
@@ -2168,7 +2203,16 @@
     {"id":"R189","supervisorId":"P062","candidateId":"P157","degreeType":"PhD","institution":"University of Melbourne","status":"awarded","statusWording":"Completed","year":2011,"supervisorRole":"primary supervisor","thesisTitle":"Functional and vascular consequences of ocular perfusion pressure modification","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official departmental graduate-thesis register."},
     {"id":"R190","supervisorId":"P062","candidateId":"P158","degreeType":"PhD","institution":"University of Melbourne","status":"awarded","statusWording":"Completed","year":2011,"supervisorRole":"primary supervisor","thesisTitle":"Wide-field ganglion cells in primate retina","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"Official departmental graduate-thesis register."},
     {"id":"R191","supervisorId":"P062","candidateId":"P159","degreeType":"Masters Research","institution":"University of Melbourne","status":"awarded","statusWording":"Completed","year":2010,"supervisorRole":"primary supervisor","thesisTitle":"Ageing and the effect of repeated intraocular pressures on retinal function","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"The official departmental register labels the award as a Masters Research thesis without specifying the exact masters degree."},
-    {"id":"R192","supervisorId":"P062","candidateId":"P160","degreeType":"Masters Research","institution":"University of Melbourne","status":"awarded","statusWording":"Completed","year":2009,"supervisorRole":"primary supervisor","thesisTitle":"The non-neural contributions to the pigmented rat ERG","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"The official departmental register labels the award as a Masters Research thesis without specifying the exact masters degree."}
+    {"id":"R192","supervisorId":"P062","candidateId":"P160","degreeType":"Masters Research","institution":"University of Melbourne","status":"awarded","statusWording":"Completed","year":2009,"supervisorRole":"primary supervisor","thesisTitle":"The non-neural contributions to the pigmented rat ERG","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Institution-supported","note":"The official departmental register labels the award as a Masters Research thesis without specifying the exact masters degree."},
+    {"id":"R193","supervisorId":"P130","candidateId":"P161","degreeType":"MASc","institution":"University of Waterloo","status":"awarded","statusWording":"Awarded","year":2023,"supervisorRole":"advisor","thesisTitle":"Development of an In-Vitro Model to Study the Effect of Shear and Biomaterial on Neutrophil Extracellular Trap Release by Blood Neutrophils and HL-60 Cells","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Waterloo repository metadata explicitly names the advisor."},
+    {"id":"R194","supervisorId":"P130","candidateId":"P163","degreeType":"MASc","institution":"University of Waterloo","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"advisor","thesisTitle":"In vitro evaluation of bone cell response to novel 3D-printable nanocomposite biomaterials for bone reconstruction","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Waterloo repository metadata explicitly names the advisor."},
+    {"id":"R195","supervisorId":"P162","candidateId":"P163","degreeType":"MASc","institution":"University of Waterloo","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"advisor","thesisTitle":"In vitro evaluation of bone cell response to novel 3D-printable nanocomposite biomaterials for bone reconstruction","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Waterloo repository metadata explicitly names the advisor."},
+    {"id":"R196","supervisorId":"P130","candidateId":"P164","degreeType":"MASc","institution":"University of Waterloo","status":"awarded","statusWording":"Awarded","year":2020,"supervisorRole":"advisor","thesisTitle":"Development of In Vitro Biocompatibility Models of the Ocular Surface","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Waterloo repository metadata explicitly names the advisor."},
+    {"id":"R197","supervisorId":"P130","candidateId":"P165","degreeType":"PhD","institution":"University of Waterloo","status":"awarded","statusWording":"Awarded","year":2016,"supervisorRole":"advisor","thesisTitle":"In Vitro Cornea Models in Contact Lens Based Ocular Drug Delivery","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Waterloo repository metadata explicitly names the advisor."},
+    {"id":"R198","supervisorId":"P050","candidateId":"P165","degreeType":"PhD","institution":"University of Waterloo","status":"awarded","statusWording":"Awarded","year":2016,"supervisorRole":"advisor","thesisTitle":"In Vitro Cornea Models in Contact Lens Based Ocular Drug Delivery","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Waterloo repository metadata explicitly names the advisor."},
+    {"id":"R199","supervisorId":"P166","candidateId":"P167","degreeType":"MASc","institution":"University of Waterloo","status":"awarded","statusWording":"Awarded","year":2020,"supervisorRole":"advisor","thesisTitle":"Corneal epithelial cell responses to tensile stress and compressive stress","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Waterloo repository metadata explicitly names the advisor."},
+    {"id":"R200","supervisorId":"P130","candidateId":"P167","degreeType":"MASc","institution":"University of Waterloo","status":"awarded","statusWording":"Awarded","year":2020,"supervisorRole":"advisor","thesisTitle":"Corneal epithelial cell responses to tensile stress and compressive stress","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Waterloo repository metadata explicitly names the advisor."},
+    {"id":"R201","supervisorId":"P131","candidateId":"P168","degreeType":"MSc","institution":"University of Waterloo","status":"awarded","statusWording":"Awarded","year":2025,"supervisorRole":"advisor","thesisTitle":"In silico and In vitro Discovery of Plant-Based Pro-Inflammatory Cytokine Inhibitors","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Waterloo repository metadata explicitly names the advisor."}
   ],
   "reportedTotals": [
     {

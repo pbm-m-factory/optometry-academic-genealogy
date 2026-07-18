@@ -7,6 +7,7 @@ const tabs = [
   ["pedigree", "Pedigree"],
   ["people", "People"],
   ["evidence", "Evidence"],
+  ["contribute", "Contribute"],
 ];
 
 function compactName(name) {
@@ -19,6 +20,34 @@ function statusLabel(status) {
 
 function sourceLabel(relationship) {
   return relationship.evidenceSourceId === "Public institutional record" ? "Public institutional record" : "Uploaded document";
+}
+
+function confidenceKey(relationship, data) {
+  const entry = Object.entries(data.evidenceConfidenceModel || {}).find(([, definition]) => definition.evidenceLevels.includes(relationship.evidenceLevel));
+  return entry?.[0] || "provisional";
+}
+
+function confidenceLabel(relationship, data) {
+  const key = confidenceKey(relationship, data);
+  return data.evidenceConfidenceModel?.[key]?.label || "Provisional";
+}
+
+function possibleDuplicatePairs(people) {
+  const partsFor = (name) => name.toLowerCase().replace(/[^a-z\s-]/g, "").trim().split(/\s+/);
+  const results = [];
+  for (let leftIndex = 0; leftIndex < people.length; leftIndex += 1) {
+    for (let rightIndex = leftIndex + 1; rightIndex < people.length; rightIndex += 1) {
+      const left = people[leftIndex];
+      const right = people[rightIndex];
+      const leftParts = partsFor(left.name);
+      const rightParts = partsFor(right.name);
+      const sameSurname = leftParts.at(-1) && leftParts.at(-1) === rightParts.at(-1);
+      const sameFirstInitial = leftParts[0]?.[0] && leftParts[0][0] === rightParts[0]?.[0];
+      const needsReview = left.identityStatus !== "named" || right.identityStatus !== "named";
+      if (sameSurname && sameFirstInitial && needsReview) results.push({ left, right, reason: "Same surname and first initial; at least one source gives initials only." });
+    }
+  }
+  return results;
 }
 
 function Badge({ children, tone = "neutral" }) {
@@ -178,6 +207,11 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [directoryQuery, setDirectoryQuery] = useState("");
   const [identityFilter, setIdentityFilter] = useState("all");
+  const [institutionFilter, setInstitutionFilter] = useState("all");
+  const [degreeFilter, setDegreeFilter] = useState("all");
+  const [confidenceFilter, setConfidenceFilter] = useState("all");
+  const [yearFrom, setYearFrom] = useState("");
+  const [yearTo, setYearTo] = useState("");
 
   useEffect(() => {
     fetch("./data/genealogy.json")
@@ -237,8 +271,44 @@ export default function Home() {
     const supervisor = model.peopleById[relationship.supervisorId]?.name || "";
     const candidate = model.peopleById[relationship.candidateId]?.name || "";
     const haystack = [supervisor, candidate, relationship.degreeType, relationship.thesisTitle, relationship.institution].join(" ").toLowerCase();
-    return haystack.includes(directoryQuery.toLowerCase());
+    const matchesText = haystack.includes(directoryQuery.toLowerCase());
+    const matchesInstitution = institutionFilter === "all" || relationship.institution === institutionFilter;
+    const matchesDegree = degreeFilter === "all" || relationship.degreeType === degreeFilter;
+    const matchesConfidence = confidenceFilter === "all" || confidenceKey(relationship, data) === confidenceFilter;
+    const matchesStart = !yearFrom || (relationship.year && relationship.year >= Number(yearFrom));
+    const matchesEnd = !yearTo || (relationship.year && relationship.year <= Number(yearTo));
+    return matchesText && matchesInstitution && matchesDegree && matchesConfidence && matchesStart && matchesEnd;
   });
+
+  const institutions = [...new Set(data.relationships.map((relationship) => relationship.institution))].sort();
+  const degreeTypes = [...new Set(data.relationships.map((relationship) => relationship.degreeType))].sort();
+  const duplicatePairs = possibleDuplicatePairs(data.people);
+
+  const submitContribution = (event) => {
+    event.preventDefault();
+    const values = Object.fromEntries(new FormData(event.currentTarget).entries());
+    const title = `Genealogy submission: ${values.candidate || "new relationship"}`;
+    const body = [
+      "## Proposed relationship",
+      `- Supervisor: ${values.supervisor}`,
+      `- Candidate: ${values.candidate}`,
+      `- Degree: ${values.degree}`,
+      `- Institution: ${values.institution}`,
+      `- Year/status: ${values.year || "Unknown"}`,
+      "",
+      "## Public evidence",
+      values.evidenceUrl || "No URL supplied",
+      "",
+      "## Notes",
+      values.notes || "None",
+      "",
+      "Please do not include private personal information or confidential documents in this public issue.",
+    ].join("\n");
+    const issueUrl = new URL("https://github.com/pbm-m-factory/optometry-academic-genealogy/issues/new");
+    issueUrl.searchParams.set("title", title);
+    issueUrl.searchParams.set("body", body);
+    window.open(issueUrl.toString(), "_blank", "noopener,noreferrer");
+  };
 
   return (
     <main>
@@ -360,17 +430,65 @@ export default function Home() {
 
         {tab === "evidence" && (
           <section className="evidence-section">
-            <div className="section-heading"><div><p className="eyebrow">Source overview</p><h2>Evidence-supported relationships</h2></div><p>Uploaded documents and public institutional records are used to verify the network. Personal document details, filenames and page references are not displayed.</p></div>
+            <div className="section-heading"><div><p className="eyebrow">Source overview</p><h2>Evidence-supported relationships</h2></div><p>Every relationship is classified as confirmed, supported or provisional. Personal document details, filenames and page references are not displayed.</p></div>
+            <div className="confidence-grid">
+              {Object.entries(data.evidenceConfidenceModel).map(([key, definition]) => (
+                <article key={key}><Badge tone={key === "confirmed" ? "green" : key === "provisional" ? "warning" : "neutral"}>{definition.label}</Badge><p>{definition.description}</p><strong>{data.relationships.filter((relationship) => confidenceKey(relationship, data) === key).length} relationships</strong></article>
+              ))}
+            </div>
             <div className="source-grid">
               {data.sources.map((source, index) => <article className="source-card" key={source.id}><span>Document {index + 1}</span><h3>Uploaded document</h3><p>Private source record</p><small>Used to support named postgraduate supervision relationships.</small></article>)}
               <article className="source-card"><span>Public sources</span><h3>Institutional records</h3><p>Official source records</p><small>Used without displaying detailed evidence trails on the public site.</small></article>
             </div>
             <div className="evidence-table-wrap">
               <div className="table-tools"><h3>Named supervision records</h3><SearchBox value={directoryQuery} onChange={setDirectoryQuery} people={[]} placeholder="Filter relationships" /></div>
+              <div className="filter-panel" aria-label="Evidence filters">
+                <label>Institution<select value={institutionFilter} onChange={(event) => setInstitutionFilter(event.target.value)}><option value="all">All institutions</option>{institutions.map((institution) => <option key={institution}>{institution}</option>)}</select></label>
+                <label>Degree<select value={degreeFilter} onChange={(event) => setDegreeFilter(event.target.value)}><option value="all">All degrees</option>{degreeTypes.map((degree) => <option key={degree}>{degree}</option>)}</select></label>
+                <label>Confidence<select value={confidenceFilter} onChange={(event) => setConfidenceFilter(event.target.value)}><option value="all">All confidence levels</option>{Object.entries(data.evidenceConfidenceModel).map(([key, definition]) => <option key={key} value={key}>{definition.label}</option>)}</select></label>
+                <label>From year<input type="number" inputMode="numeric" min="1900" max="2100" value={yearFrom} onChange={(event) => setYearFrom(event.target.value)} placeholder="Any" /></label>
+                <label>To year<input type="number" inputMode="numeric" min="1900" max="2100" value={yearTo} onChange={(event) => setYearTo(event.target.value)} placeholder="Any" /></label>
+                <button type="button" onClick={() => { setInstitutionFilter("all"); setDegreeFilter("all"); setConfidenceFilter("all"); setYearFrom(""); setYearTo(""); setDirectoryQuery(""); }}>Clear filters</button>
+              </div>
+              <p className="result-count">Showing {evidenceRows.length} of {data.relationships.length} relationships</p>
               <div className="evidence-table" role="table">
                 <div className="evidence-row evidence-header" role="row"><span>Supervisor → candidate</span><span>Degree / award</span><span>Source</span></div>
-                {evidenceRows.map((relationship) => <button className="evidence-row" role="row" key={relationship.id} onClick={() => pickPerson(relationship.candidateId)}><span><strong>{compactName(model.peopleById[relationship.supervisorId].name)} → {compactName(model.peopleById[relationship.candidateId].name)}</strong><small>{relationship.institution}</small></span><span><strong>{relationship.degreeType} · {relationship.year || "Ongoing"} · {statusLabel(relationship.status)}</strong><small>{relationship.thesisTitle}</small></span><span><Badge tone="neutral">{sourceLabel(relationship)}</Badge></span></button>)}
+                {evidenceRows.map((relationship) => <button className="evidence-row" role="row" key={relationship.id} onClick={() => pickPerson(relationship.candidateId)}><span><strong>{compactName(model.peopleById[relationship.supervisorId].name)} → {compactName(model.peopleById[relationship.candidateId].name)}</strong><small>{relationship.institution}</small></span><span><strong>{relationship.degreeType} · {relationship.year || "Ongoing"} · {statusLabel(relationship.status)}</strong><small>{relationship.thesisTitle}</small></span><span><Badge tone={confidenceKey(relationship, data) === "confirmed" ? "green" : confidenceKey(relationship, data) === "provisional" ? "warning" : "neutral"}>{confidenceLabel(relationship, data)}</Badge><small>{sourceLabel(relationship)}</small></span></button>)}
               </div>
+            </div>
+          </section>
+        )}
+
+        {tab === "contribute" && (
+          <section className="contribute-section">
+            <div className="section-heading"><div><p className="eyebrow">Community review</p><h2>Correct or extend the tree</h2></div><p>Submit a relationship with a public thesis, repository or institutional-profile link. Submissions open as a reviewable GitHub issue and are not added automatically.</p></div>
+            <div className="contribute-grid">
+              <form className="contribution-form" onSubmit={submitContribution}>
+                <h3>Propose a relationship</h3>
+                <div className="form-grid">
+                  <label>Supervisor<input name="supervisor" required placeholder="Full name" /></label>
+                  <label>Candidate<input name="candidate" required placeholder="Full name" /></label>
+                  <label>Degree<input name="degree" required placeholder="PhD, MPhil, MSc…" /></label>
+                  <label>Institution<input name="institution" required placeholder="Awarding institution" /></label>
+                  <label>Year or status<input name="year" placeholder="2024 or ongoing" /></label>
+                  <label className="form-wide">Public evidence URL<input name="evidenceUrl" type="url" required placeholder="https://…" /></label>
+                  <label className="form-wide">Notes<textarea name="notes" rows="5" placeholder="Supervisor role, thesis title, name variants or correction details" /></label>
+                </div>
+                <p className="privacy-note">Do not submit confidential CVs, private email, personal contact information or sensitive documents through the public form.</p>
+                <button className="primary-action" type="submit">Review submission on GitHub <span>→</span></button>
+              </form>
+
+              <aside className="duplicate-review">
+                <p className="eyebrow">Identity checks</p>
+                <h3>Possible duplicate names</h3>
+                <p>The review identifies similar names without merging them automatically. A person is merged only after evidence or owner confirmation.</p>
+                <div className="review-summary"><strong>{duplicatePairs.length}</strong><span>pairs currently flagged for human review</span></div>
+                <div className="duplicate-list">
+                  {duplicatePairs.length ? duplicatePairs.slice(0, 12).map(({ left, right, reason }) => <article key={`${left.id}-${right.id}`}><strong>{left.name} ↔ {right.name}</strong><span>{left.id} / {right.id}</span><small>{reason}</small></article>) : <p className="empty-card">No unresolved candidates meet the conservative duplicate rule.</p>}
+                </div>
+                <h4>Resolved identities</h4>
+                {(data.duplicateReview?.resolved || []).map((resolution) => <article className="resolved-identity" key={resolution.canonicalPersonId}><Badge tone="green">Merged</Badge><strong>{resolution.aliases.join(" · ")}</strong><small>Canonical record {resolution.canonicalPersonId}</small></article>)}
+              </aside>
             </div>
           </section>
         )}
