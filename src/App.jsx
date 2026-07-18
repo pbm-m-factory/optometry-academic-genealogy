@@ -67,7 +67,7 @@ function PersonButton({ person, meta, onSelect, direction }) {
 
 function SearchBox({ value, onChange, people, onPick, placeholder = "Search people, theses or institutions" }) {
   const suggestions = value.trim()
-    ? people.filter((person) => [person.name, person.nameAsSource].filter(Boolean).join(" ").toLowerCase().includes(value.toLowerCase())).slice(0, 6)
+    ? people.filter((person) => [person.name, person.nameAsSource, ...(person.aliases || [])].filter(Boolean).join(" ").toLowerCase().includes(value.toLowerCase())).slice(0, 6)
     : [];
   return (
     <div className="search-wrap">
@@ -262,7 +262,7 @@ export default function Home() {
   };
 
   const directoryPeople = data.people.filter((person) => {
-    const matchesText = [person.name, person.nameAsSource].filter(Boolean).join(" ").toLowerCase().includes(directoryQuery.toLowerCase());
+    const matchesText = [person.name, person.nameAsSource, ...(person.aliases || [])].filter(Boolean).join(" ").toLowerCase().includes(directoryQuery.toLowerCase());
     const matchesIdentity = identityFilter === "all" || person.identityStatus === identityFilter;
     return matchesText && matchesIdentity;
   });
@@ -366,6 +366,7 @@ export default function Home() {
                 <div className="monogram">{selected.name.split(" ").filter((part) => !part.includes(".")).slice(0, 2).map((part) => part[0]).join("") || selected.name[0]}</div>
                 <p className="eyebrow">Selected researcher</p>
                 <h2>{compactName(selected.name)}</h2>
+                {selected.aliases?.some((alias) => alias !== selected.name) && <p className="profile-note">Also recorded as: {selected.aliases.filter((alias) => alias !== selected.name).join(", ")}</p>}
                 <div className="profile-counts">
                   <span><strong>{parentLinks.length}</strong> named parent{parentLinks.length === 1 ? "" : "s"}</span>
                   <span><strong>{childLinks.length}</strong> named child{childLinks.length === 1 ? "" : "ren"}</span>

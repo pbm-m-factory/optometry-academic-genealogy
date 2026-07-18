@@ -36,6 +36,18 @@
         "aliases": ["S. Fleiszig", "Suzanne M. J. Fleiszig", "Suzi Fleiszig", "Fleiszig S."],
         "status": "merged",
         "note": "The uploaded document identifies Fleiszig S. as Nathan Efron's 1991 PhD graduate; official Berkeley records confirm the full identity and seven Berkeley PhD mentees."
+      },
+      {
+        "canonicalPersonId": "P419",
+        "aliases": ["Jason Ng", "Jason S. Ng"],
+        "status": "merged",
+        "note": "The official Marshall B. Ketchum profile confirms that Jason S. Ng earned the 2008 Berkeley Vision Science PhD listed under Jason Ng."
+      },
+      {
+        "canonicalPersonId": "P437",
+        "aliases": ["Thomas Raach", "Thomas Raasch", "Thomas W. Raasch"],
+        "status": "merged",
+        "note": "Ohio State identifies Thomas W. Raasch as a UC Berkeley PhD; the 1988 Berkeley directory spelling 'Raach' is retained as a source alias."
       }
     ],
     "reviewedDistinct": [
@@ -43,6 +55,13 @@
         "personIds": ["P024", "P133"],
         "status": "distinct",
         "note": "The QUT thesis title page identifies P024 as Sangeetha Srinivasan; P133 is Sruthi Srinivasan at the University of Waterloo."
+      }
+    ],
+    "unresolved": [
+      {
+        "personIds": ["P058", "P175"],
+        "status": "unresolved",
+        "note": "Two Sarah Smith records have different degrees, institutions and years. They remain separate pending person-specific evidence."
       }
     ]
   },
@@ -1214,7 +1233,7 @@
     {"id":"P416","name":"Erik Nemeth","nameAsSource":"Erik Nemeth","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
     {"id":"P417","name":"Charles Neveu","nameAsSource":"Charles Neveu","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
     {"id":"P418","name":"James Newacheck","nameAsSource":"James Newacheck","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
-    {"id":"P419","name":"Jason Ng","nameAsSource":"Jason Ng","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
+    {"id":"P419","name":"Jason S. Ng","canonicalName":"Jason S. Ng","aliases":["Jason Ng","Jason S. Ng"],"nameAsSource":"Jason Ng; Jason S. Ng","identityStatus":"named","identityEvidence":["https://vision.berkeley.edu/alumni/alumni-directory","https://www.ketchum.edu/directory/jason-ng"],"note":"Merged identity: the official Ketchum profile confirms that the Berkeley graduate Jason Ng and Jason S. Ng are the same person."},
     {"id":"P420","name":"Minjian Ni","nameAsSource":"Minjian Ni","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
     {"id":"P421","name":"Melvin O'Neal","nameAsSource":"Melvin O'Neal","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
     {"id":"P422","name":"James O’Shea","nameAsSource":"James O’Shea","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
@@ -1232,7 +1251,7 @@
     {"id":"P434","name":"David Pope","nameAsSource":"David Pope","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
     {"id":"P435","name":"Nicole Putnam","nameAsSource":"Nicole Putnam","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
     {"id":"P436","name":"Judy Quong","nameAsSource":"Judy Quong","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
-    {"id":"P437","name":"Thomas Raach","nameAsSource":"Thomas Raach","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
+    {"id":"P437","name":"Thomas W. Raasch","canonicalName":"Thomas W. Raasch","aliases":["Thomas Raach","Thomas Raasch","Thomas W. Raasch"],"nameAsSource":"Thomas Raach; Thomas Raasch; Thomas W. Raasch","identityStatus":"named","identityEvidence":["https://vision.berkeley.edu/alumni/alumni-directory","https://optometry.osu.edu/sites/default/files/PDFs/GraduateFacultyBrochure20220429.pdf"],"note":"Merged identity: Ohio State confirms a UC Berkeley PhD; the Berkeley directory's spelling 'Thomas Raach' is retained as an alias."},
     {"id":"P438","name":"Jeffrey Rabin","nameAsSource":"Jeffrey Rabin","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
     {"id":"P439","name":"Ary Ramoa","nameAsSource":"Ary Ramoa","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
     {"id":"P440","name":"Robert Randle","nameAsSource":"Robert Randle","identityStatus":"named","note":"Full name confirmed by the official Berkeley Vision Science alumni directory."},
@@ -1474,7 +1493,6 @@
     {"id":"P677","name":"Amber J. Colling","nameAsSource":"Amber J. Colling","identityStatus":"named","note":""},
     {"id":"P678","name":"Andrew Hartwick","nameAsSource":"Andrew Hartwick","identityStatus":"named","note":""},
     {"id":"P679","name":"Nicholas Tyler Perichak","nameAsSource":"Nicholas Tyler Perichak","identityStatus":"named","note":""},
-    {"id":"P680","name":"Thomas Raasch","nameAsSource":"Thomas Raasch","identityStatus":"named","note":""},
     {"id":"P681","name":"Charles Bahr","nameAsSource":"Charles Bahr","identityStatus":"named","note":""},
     {"id":"P682","name":"Phillip Yuhas","nameAsSource":"Phillip Yuhas","identityStatus":"named","note":""},
     {"id":"P683","name":"Hayley Samson","nameAsSource":"Hayley Samson","identityStatus":"named","note":""},
@@ -1492,7 +1510,6 @@
     {"id":"P695","name":"Huy Tran","nameAsSource":"Huy Tran","identityStatus":"named","note":""},
     {"id":"P696","name":"Monica Jong","nameAsSource":"Monica Jong","identityStatus":"named","note":""},
     {"id":"P697","name":"Yen Hai Tran","nameAsSource":"Yen Hai Tran","identityStatus":"named","note":""},
-    {"id":"P698","name":"Jason S. Ng","nameAsSource":"Jason S. Ng","identityStatus":"named","note":""},
     {"id":"P699","name":"Rachelle J. Lin","nameAsSource":"Rachelle J. Lin","identityStatus":"named","note":""},
     {"id":"P700","name":"John Lawrenson","nameAsSource":"John Lawrenson","identityStatus":"named","note":""},
     {"id":"P701","name":"Priya Dabasia","nameAsSource":"Priya Dabasia","identityStatus":"named","note":""},
@@ -3284,7 +3301,7 @@
     {"id":"R708","supervisorId":"P594","candidateId":"P675","degreeType":"PhD","institution":"University of Houston","status":"awarded","statusWording":"Awarded","year":1988,"supervisorRole":"advisor","thesisTitle":"Psychophysical studies of color vision processing in the monkey visual system","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
     {"id":"R709","supervisorId":"P676","candidateId":"P677","degreeType":"MS","institution":"The Ohio State University","status":"awarded","statusWording":"Awarded","year":2010,"supervisorRole":"advisor","thesisTitle":"A Comparison of Three Methods of Measuring Central Corneal Thickness in Normal and Thinned Corneas","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
     {"id":"R710","supervisorId":"P678","candidateId":"P679","degreeType":"MS","institution":"The Ohio State University","status":"awarded","statusWording":"Awarded","year":2015,"supervisorRole":"advisor","thesisTitle":"Assessment of the ipRGC Contribution to the Human Pupillary Light Reflex Using a Commercial Pupillometer","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
-    {"id":"R711","supervisorId":"P680","candidateId":"P681","degreeType":"MS","institution":"The Ohio State University","status":"awarded","statusWording":"Awarded","year":2024,"supervisorRole":"advisor","thesisTitle":"Evaluation of Alternative Refraction Techniques and Their Uses in Highly Aberrated Eyes","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
+    {"id":"R711","supervisorId":"P437","candidateId":"P681","degreeType":"MS","institution":"The Ohio State University","status":"awarded","statusWording":"Awarded","year":2024,"supervisorRole":"advisor","thesisTitle":"Evaluation of Alternative Refraction Techniques and Their Uses in Highly Aberrated Eyes","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
     {"id":"R712","supervisorId":"P682","candidateId":"P683","degreeType":"MS","institution":"The Ohio State University","status":"awarded","statusWording":"Awarded","year":2024,"supervisorRole":"joint advisor","thesisTitle":"The Exploration of a Novel Terrestrial Analogue for Spaceflight Associated Neuro-ocular Syndrome","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
     {"id":"R713","supervisorId":"P684","candidateId":"P683","degreeType":"MS","institution":"The Ohio State University","status":"awarded","statusWording":"Awarded","year":2024,"supervisorRole":"joint advisor","thesisTitle":"The Exploration of a Novel Terrestrial Analogue for Spaceflight Associated Neuro-ocular Syndrome","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
     {"id":"R714","supervisorId":"P653","candidateId":"P685","degreeType":"MS","institution":"The Ohio State University","status":"awarded","statusWording":"Awarded","year":2025,"supervisorRole":"advisor","thesisTitle":"Seasonal Variation in Myopia Control in the Bifocal Lenses in Nearsighted Kids (BLINK) Study","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
@@ -3299,7 +3316,7 @@
     {"id":"R723","supervisorId":"P694","candidateId":"P695","degreeType":"PhD","institution":"UNSW Sydney","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"joint supervisor","thesisTitle":"","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
     {"id":"R724","supervisorId":"P696","candidateId":"P695","degreeType":"PhD","institution":"UNSW Sydney","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"joint supervisor","thesisTitle":"","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
     {"id":"R725","supervisorId":"P697","candidateId":"P695","degreeType":"PhD","institution":"UNSW Sydney","status":"awarded","statusWording":"Awarded","year":2022,"supervisorRole":"joint supervisor","thesisTitle":"","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
-    {"id":"R726","supervisorId":"P698","candidateId":"P699","degreeType":"MS","institution":"Marshall B Ketchum University","status":"awarded","statusWording":"Awarded","year":2013,"supervisorRole":"advisor","thesisTitle":"Mesopic visual acuity: Determinants, repeatability, and recommendations for testing standardizations","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
+    {"id":"R726","supervisorId":"P419","candidateId":"P699","degreeType":"MS","institution":"Marshall B Ketchum University","status":"awarded","statusWording":"Awarded","year":2013,"supervisorRole":"advisor","thesisTitle":"Mesopic visual acuity: Determinants, repeatability, and recommendations for testing standardizations","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
     {"id":"R727","supervisorId":"P700","candidateId":"P701","degreeType":"PhD","institution":"City St George's, University of London","status":"awarded","statusWording":"Awarded","year":2014,"supervisorRole":"joint supervisor","thesisTitle":"A study of the role of advanced technologies in glaucoma case-finding","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
     {"id":"R728","supervisorId":"P702","candidateId":"P701","degreeType":"PhD","institution":"City St George's, University of London","status":"awarded","statusWording":"Awarded","year":2014,"supervisorRole":"joint supervisor","thesisTitle":"A study of the role of advanced technologies in glaucoma case-finding","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
     {"id":"R729","supervisorId":"P703","candidateId":"P701","degreeType":"PhD","institution":"City St George's, University of London","status":"awarded","statusWording":"Awarded","year":2014,"supervisorRole":"joint supervisor","thesisTitle":"A study of the role of advanced technologies in glaucoma case-finding","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The official institutional record explicitly names this supervisor and completed graduate degree."},
