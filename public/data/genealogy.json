@@ -31,6 +31,13 @@
         "status": "merged",
         "note": "Official Aston biography identifies the 1996 UMIST MSc dissertation and Philip Morgan as supervisor."
       }
+    ],
+    "reviewedDistinct": [
+      {
+        "personIds": ["P024", "P133"],
+        "status": "distinct",
+        "note": "The QUT thesis title page identifies P024 as Sangeetha Srinivasan; P133 is Sruthi Srinivasan at the University of Waterloo."
+      }
     ]
   },
   "people": [
@@ -190,17 +197,17 @@
     },
     {
       "id": "P023",
-      "name": "N. Pritchard",
-      "nameAsSource": "Pritchard N.",
-      "identityStatus": "initials_only",
-      "note": ""
+      "name": "Nicola Pritchard",
+      "nameAsSource": "Pritchard N.; Nicola Pritchard",
+      "identityStatus": "named",
+      "note": "Full name confirmed by an official QUT academic profile and thesis title page."
     },
     {
       "id": "P024",
-      "name": "S. Srinivasan",
-      "nameAsSource": "Srinivasan S.",
-      "identityStatus": "initials_only",
-      "note": ""
+      "name": "Sangeetha Srinivasan",
+      "nameAsSource": "Srinivasan S.; Sangeetha Srinivasan",
+      "identityStatus": "named",
+      "note": "Full name confirmed by the QUT thesis title page; this is a different person from Sruthi Srinivasan."
     },
     {
       "id": "P025",
@@ -225,10 +232,10 @@
     },
     {
       "id": "P028",
-      "name": "L. F. C. Colorado",
-      "nameAsSource": "Colorado LFC.",
-      "identityStatus": "initials_only",
-      "note": ""
+      "name": "Luisa Fernanda Holguin Colorado",
+      "nameAsSource": "Colorado LFC.; Luisa Fernanda Holguin Colorado",
+      "identityStatus": "named",
+      "note": "Full name confirmed by the QUT thesis title page."
     },
     {
       "id": "P029",
@@ -1335,12 +1342,12 @@
       "status": "awarded",
       "statusWording": "Awarded",
       "year": 2014,
-      "supervisorRole": "unspecified",
-      "thesisTitle": "Risk factors for retinal structure/visual function changes in diabetic neuropathy",
-      "evidenceSourceId": "Uploaded document",
+      "supervisorRole": "supervisor",
+      "thesisTitle": "Diabetic Peripheral Neuropathy and Retinal Tissue Thickness",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "The QUT thesis title page explicitly names Nathan Efron and Nicola Pritchard as supervisors."
     },
     {
       "id": "R024",
@@ -1399,12 +1406,12 @@
       "status": "awarded",
       "statusWording": "Awarded",
       "year": 2016,
-      "supervisorRole": "unspecified",
-      "thesisTitle": "Impact of contact lens wear on conjunctival goblet cells",
-      "evidenceSourceId": "Uploaded document",
+      "supervisorRole": "supervisor",
+      "thesisTitle": "Impact of Contact Lens Wear on Conjunctival Goblet Cells",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "The QUT thesis title page explicitly names Nathan Efron and Nicola Pritchard as supervisors."
     },
     {
       "id": "R028",
@@ -2268,7 +2275,9 @@
     {"id":"R227","supervisorId":"P186","candidateId":"P185","degreeType":"PhD","institution":"Aston University","status":"awarded","statusWording":"Awarded","year":2021,"supervisorRole":"supervisor","thesisTitle":"Novelty Optimisation Techniques For Myopia Assessment & Management","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Aston thesis record explicitly names the supervisor."},
     {"id":"R228","supervisorId":"P187","candidateId":"P185","degreeType":"PhD","institution":"Aston University","status":"awarded","statusWording":"Awarded","year":2021,"supervisorRole":"supervisor","thesisTitle":"Novelty Optimisation Techniques For Myopia Assessment & Management","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Aston thesis record explicitly names the supervisor."},
     {"id":"R229","supervisorId":"P059","candidateId":"P188","degreeType":"PhD","institution":"Aston University","status":"awarded","statusWording":"Awarded","year":2025,"supervisorRole":"supervisor","thesisTitle":"Digital Eye Strain","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Aston thesis record explicitly names the supervisor."},
-    {"id":"R230","supervisorId":"P189","candidateId":"P188","degreeType":"PhD","institution":"Aston University","status":"awarded","statusWording":"Awarded","year":2025,"supervisorRole":"supervisor","thesisTitle":"Digital Eye Strain","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Aston thesis record explicitly names the supervisor."}
+    {"id":"R230","supervisorId":"P189","candidateId":"P188","degreeType":"PhD","institution":"Aston University","status":"awarded","statusWording":"Awarded","year":2025,"supervisorRole":"supervisor","thesisTitle":"Digital Eye Strain","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Aston thesis record explicitly names the supervisor."},
+    {"id":"R231","supervisorId":"P023","candidateId":"P024","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2014,"supervisorRole":"supervisor","thesisTitle":"Diabetic Peripheral Neuropathy and Retinal Tissue Thickness","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis title page explicitly names Nathan Efron and Nicola Pritchard as supervisors."},
+    {"id":"R232","supervisorId":"P023","candidateId":"P028","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2016,"supervisorRole":"supervisor","thesisTitle":"Impact of Contact Lens Wear on Conjunctival Goblet Cells","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis title page explicitly names Nathan Efron and Nicola Pritchard as supervisors."}
   ],
   "reportedTotals": [
     {

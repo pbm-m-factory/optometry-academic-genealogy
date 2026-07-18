@@ -488,6 +488,7 @@ export default function Home() {
                 </div>
                 <h4>Resolved identities</h4>
                 {(data.duplicateReview?.resolved || []).map((resolution) => <article className="resolved-identity" key={resolution.canonicalPersonId}><Badge tone="green">Merged</Badge><strong>{resolution.aliases.join(" · ")}</strong><small>Canonical record {resolution.canonicalPersonId}</small></article>)}
+                {(data.duplicateReview?.reviewedDistinct || []).map((resolution) => <article className="resolved-identity" key={resolution.personIds.join("-")}><Badge tone="neutral">Distinct</Badge><strong>{resolution.personIds.join(" · ")}</strong><small>{resolution.note}</small></article>)}
               </aside>
             </div>
           </section>
