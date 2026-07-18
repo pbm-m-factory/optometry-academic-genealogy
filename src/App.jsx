@@ -67,7 +67,7 @@ function PersonButton({ person, meta, onSelect, direction }) {
 
 function SearchBox({ value, onChange, people, onPick, placeholder = "Search people, theses or institutions" }) {
   const suggestions = value.trim()
-    ? people.filter((person) => person.name.toLowerCase().includes(value.toLowerCase())).slice(0, 6)
+    ? people.filter((person) => [person.name, person.nameAsSource].filter(Boolean).join(" ").toLowerCase().includes(value.toLowerCase())).slice(0, 6)
     : [];
   return (
     <div className="search-wrap">
@@ -262,7 +262,7 @@ export default function Home() {
   };
 
   const directoryPeople = data.people.filter((person) => {
-    const matchesText = person.name.toLowerCase().includes(directoryQuery.toLowerCase());
+    const matchesText = [person.name, person.nameAsSource].filter(Boolean).join(" ").toLowerCase().includes(directoryQuery.toLowerCase());
     const matchesIdentity = identityFilter === "all" || person.identityStatus === identityFilter;
     return matchesText && matchesIdentity;
   });
