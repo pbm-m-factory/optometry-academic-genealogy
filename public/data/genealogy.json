@@ -190,10 +190,10 @@
     },
     {
       "id": "P022",
-      "name": "A. M. Shahidi",
-      "nameAsSource": "Shahidi AM.",
-      "identityStatus": "initials_only",
-      "note": ""
+      "name": "Ayda Moaven-Shahidi",
+      "nameAsSource": "Shahidi AM.; Ayda Moaven-Shahidi",
+      "identityStatus": "named",
+      "note": "Full name confirmed by the official QUT thesis repository record."
     },
     {
       "id": "P023",
@@ -218,17 +218,17 @@
     },
     {
       "id": "P026",
-      "name": "C. Dehghani",
-      "nameAsSource": "Dehghani C.",
-      "identityStatus": "initials_only",
-      "note": ""
+      "name": "Cirous Dehghani",
+      "nameAsSource": "Dehghani C.; Cirous Dehghani",
+      "identityStatus": "named",
+      "note": "Full name confirmed by the official QUT thesis record."
     },
     {
       "id": "P027",
-      "name": "Y. A. M. Al-Zahrani",
-      "nameAsSource": "Al-Zahrani YAM.",
-      "identityStatus": "initials_only",
-      "note": ""
+      "name": "Yahya Alzahrani",
+      "nameAsSource": "Al-Zahrani YAM.; Yahya Alzahrani",
+      "identityStatus": "named",
+      "note": "Full name confirmed by the official QUT thesis record."
     },
     {
       "id": "P028",
@@ -239,10 +239,10 @@
     },
     {
       "id": "P029",
-      "name": "K. S. S. Al-Rashah",
-      "nameAsSource": "Al-Rashah KSS.",
-      "identityStatus": "initials_only",
-      "note": ""
+      "name": "Khaled Al Rashah",
+      "nameAsSource": "Al-Rashah KSS.; Khaled Saleh S. Al Rashah; Khaled Al Rashah",
+      "identityStatus": "named",
+      "note": "Full name confirmed by the official QUT thesis record."
     },
     {
       "id": "P030",
@@ -582,10 +582,10 @@
     },
     {
       "id": "P079",
-      "name": "M. Al-Dossari",
-      "nameAsSource": "Al-Dossari M.",
-      "identityStatus": "initials_only",
-      "note": ""
+      "name": "Munira Al Dossari",
+      "nameAsSource": "Al-Dossari M.; Munira Al Dossari",
+      "identityStatus": "named",
+      "note": "Full name confirmed by the official QUT thesis record."
     },
     {
       "id": "P080",
@@ -978,7 +978,8 @@
     {"id":"P186","name":"Nicola Logan","nameAsSource":"Nicola Logan","identityStatus":"named","note":""},
     {"id":"P187","name":"Raquel Gil-Cazorla","nameAsSource":"Raquel Gil-Cazorla","identityStatus":"named","note":""},
     {"id":"P188","name":"Danielle Rachel Beeson","nameAsSource":"Beeson, D. R.; Danielle Rachel Beeson","identityStatus":"named","note":""},
-    {"id":"P189","name":"Amy Sheppard","nameAsSource":"Amy Sheppard","identityStatus":"named","note":""}
+    {"id":"P189","name":"Amy Sheppard","nameAsSource":"Amy Sheppard","identityStatus":"named","note":""},
+    {"id":"P190","name":"Katie Edwards","nameAsSource":"Dr Katie Edwards; Katie Edwards","identityStatus":"named","note":"Named as a QUT PhD supervisor in official thesis records."}
   ],
   "relationships": [
     {
@@ -1374,12 +1375,12 @@
       "status": "awarded",
       "statusWording": "Awarded",
       "year": 2015,
-      "supervisorRole": "unspecified",
-      "thesisTitle": "Longitudinal assessment of corneal nerves in diabetic neuropathy",
-      "evidenceSourceId": "Uploaded document",
+      "supervisorRole": "supervisor",
+      "thesisTitle": "Longitudinal Assessment of Corneal Subbasal Nerve Morphology as a Potential Measure of Diabetic Peripheral Neuropathy",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "The QUT thesis title page explicitly names Nathan Efron, Nicola Pritchard and Katie Edwards as supervisors."
     },
     {
       "id": "R026",
@@ -1390,12 +1391,12 @@
       "status": "awarded",
       "statusWording": "Awarded",
       "year": 2016,
-      "supervisorRole": "unspecified",
-      "thesisTitle": "Longitudinal changes in corneal and conjunctival Langerhans cells in contact lens associated dry eye",
-      "evidenceSourceId": "Uploaded document",
+      "supervisorRole": "supervisor",
+      "thesisTitle": "In Vivo Assessment of Inflammatory Cells in Contact Lens Wearers",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "The QUT thesis title page explicitly names Nathan Efron and Nicola Pritchard as supervisors."
     },
     {
       "id": "R027",
@@ -1423,11 +1424,11 @@
       "statusWording": "Awarded",
       "year": 2018,
       "supervisorRole": "associate",
-      "thesisTitle": "Corneal nerve growth in diabetic neuropathy",
-      "evidenceSourceId": "Uploaded document",
+      "thesisTitle": "Characterising Corneal Nerve Migration Rates in Healthy and Diabetic Individuals with and without Neuropathy",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "The QUT thesis acknowledgements explicitly identify Nathan Efron and Nicola Pritchard as associate supervisors and Katie Edwards as principal supervisor."
     },
     {
       "id": "R029",
@@ -2138,7 +2139,7 @@
     {"id":"R090","supervisorId":"P001","candidateId":"P077","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":1999,"supervisorRole":"unspecified","thesisTitle":"Confocal microscopy of corneal nerves in contact lens wearers","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
     {"id":"R091","supervisorId":"P001","candidateId":"P078","degreeType":"MPhil","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2000,"supervisorRole":"unspecified","thesisTitle":"Safety and efficacy of daily wear daily disposable contact lenses","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
     {"id":"R092","supervisorId":"P001","candidateId":"P021","degreeType":"MSc","institution":"University of Manchester","status":"awarded","statusWording":"Awarded","year":2004,"supervisorRole":"unspecified","thesisTitle":"Confocal microscopy of the limbus in contact lens wearers","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
-    {"id":"R093","supervisorId":"P001","candidateId":"P079","degreeType":"MAppSci","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2008,"supervisorRole":"unspecified","thesisTitle":"Confocal microscopy of the conjunctival response to contact lens wear","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"Completed non-PhD research degree identified in an uploaded CV."},
+    {"id":"R093","supervisorId":"P001","candidateId":"P079","degreeType":"MAppSci","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2008,"supervisorRole":"principal supervisor","thesisTitle":"Confocal Microscopic Examination of the Conjunctiva","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis acknowledgements explicitly identify Nathan Efron as principal supervisor and Nicola Pritchard as associate supervisor."},
     {"id":"R094","supervisorId":"P002","candidateId":"P080","degreeType":"MPhil","institution":"UMIST","status":"awarded","statusWording":"Completed","year":2003,"supervisorRole":"unspecified","thesisTitle":"Objective assessment of contact lens discomfort","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MPhil by research identified in an uploaded CV."},
     {"id":"R095","supervisorId":"P002","candidateId":"P081","degreeType":"MPhil","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2004,"supervisorRole":"unspecified","thesisTitle":"Automatic assessment of soft contact lens positioning and movement","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MPhil by research identified in an uploaded CV."},
     {"id":"R096","supervisorId":"P002","candidateId":"P082","degreeType":"MPhil","institution":"University of Manchester","status":"awarded","statusWording":"Completed","year":2005,"supervisorRole":"unspecified","thesisTitle":"The development of novel methods of measuring contact lens visual performance","evidenceSourceId":"Uploaded document","sourcePage":null,"evidenceLevel":"Document-supported","note":"MPhil by research identified in an uploaded CV."},
@@ -2277,7 +2278,14 @@
     {"id":"R229","supervisorId":"P059","candidateId":"P188","degreeType":"PhD","institution":"Aston University","status":"awarded","statusWording":"Awarded","year":2025,"supervisorRole":"supervisor","thesisTitle":"Digital Eye Strain","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Aston thesis record explicitly names the supervisor."},
     {"id":"R230","supervisorId":"P189","candidateId":"P188","degreeType":"PhD","institution":"Aston University","status":"awarded","statusWording":"Awarded","year":2025,"supervisorRole":"supervisor","thesisTitle":"Digital Eye Strain","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"Official Aston thesis record explicitly names the supervisor."},
     {"id":"R231","supervisorId":"P023","candidateId":"P024","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2014,"supervisorRole":"supervisor","thesisTitle":"Diabetic Peripheral Neuropathy and Retinal Tissue Thickness","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis title page explicitly names Nathan Efron and Nicola Pritchard as supervisors."},
-    {"id":"R232","supervisorId":"P023","candidateId":"P028","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2016,"supervisorRole":"supervisor","thesisTitle":"Impact of Contact Lens Wear on Conjunctival Goblet Cells","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis title page explicitly names Nathan Efron and Nicola Pritchard as supervisors."}
+    {"id":"R232","supervisorId":"P023","candidateId":"P028","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2016,"supervisorRole":"supervisor","thesisTitle":"Impact of Contact Lens Wear on Conjunctival Goblet Cells","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis title page explicitly names Nathan Efron and Nicola Pritchard as supervisors."},
+    {"id":"R233","supervisorId":"P023","candidateId":"P026","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2015,"supervisorRole":"supervisor","thesisTitle":"Longitudinal Assessment of Corneal Subbasal Nerve Morphology as a Potential Measure of Diabetic Peripheral Neuropathy","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis title page explicitly names Nathan Efron, Nicola Pritchard and Katie Edwards as supervisors."},
+    {"id":"R234","supervisorId":"P190","candidateId":"P026","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2015,"supervisorRole":"supervisor","thesisTitle":"Longitudinal Assessment of Corneal Subbasal Nerve Morphology as a Potential Measure of Diabetic Peripheral Neuropathy","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis title page explicitly names Nathan Efron, Nicola Pritchard and Katie Edwards as supervisors."},
+    {"id":"R235","supervisorId":"P023","candidateId":"P027","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2016,"supervisorRole":"supervisor","thesisTitle":"In Vivo Assessment of Inflammatory Cells in Contact Lens Wearers","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis title page explicitly names Nathan Efron and Nicola Pritchard as supervisors."},
+    {"id":"R236","supervisorId":"P190","candidateId":"P029","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"principal supervisor","thesisTitle":"Characterising Corneal Nerve Migration Rates in Healthy and Diabetic Individuals with and without Neuropathy","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis acknowledgements explicitly identify Katie Edwards as principal supervisor and Nathan Efron and Nicola Pritchard as associate supervisors."},
+    {"id":"R237","supervisorId":"P023","candidateId":"P029","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"associate supervisor","thesisTitle":"Characterising Corneal Nerve Migration Rates in Healthy and Diabetic Individuals with and without Neuropathy","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis acknowledgements explicitly identify Katie Edwards as principal supervisor and Nathan Efron and Nicola Pritchard as associate supervisors."},
+    {"id":"R238","supervisorId":"P023","candidateId":"P022","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2011,"supervisorRole":"supervisor","thesisTitle":"Assessment of Retinal Structure and Visual Function in Association with Diabetic Peripheral Neuropathy","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official institutional profile","note":"The official QUT profile lists this completed supervision, matched to the candidate by the exact-title QUT thesis repository record."},
+    {"id":"R239","supervisorId":"P023","candidateId":"P079","degreeType":"MAppSci","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2008,"supervisorRole":"associate supervisor","thesisTitle":"Confocal Microscopic Examination of the Conjunctiva","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis acknowledgements explicitly identify Nathan Efron as principal supervisor and Nicola Pritchard as associate supervisor."}
   ],
   "reportedTotals": [
     {
