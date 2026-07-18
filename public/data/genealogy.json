@@ -979,7 +979,8 @@
     {"id":"P187","name":"Raquel Gil-Cazorla","nameAsSource":"Raquel Gil-Cazorla","identityStatus":"named","note":""},
     {"id":"P188","name":"Danielle Rachel Beeson","nameAsSource":"Beeson, D. R.; Danielle Rachel Beeson","identityStatus":"named","note":""},
     {"id":"P189","name":"Amy Sheppard","nameAsSource":"Amy Sheppard","identityStatus":"named","note":""},
-    {"id":"P190","name":"Katie Edwards","nameAsSource":"Dr Katie Edwards; Katie Edwards","identityStatus":"named","note":"Named as a QUT PhD supervisor in official thesis records."}
+    {"id":"P190","name":"Katie Edwards","nameAsSource":"Dr Katie Edwards; Katie Edwards","identityStatus":"named","note":"Named as a QUT PhD supervisor in official thesis records."},
+    {"id":"P191","name":"Anthony Russell","nameAsSource":"Associate Professor Anthony Russell","identityStatus":"named","note":"Named as a supervisor on Nicola Pritchard's official QUT PhD thesis title page."}
   ],
   "relationships": [
     {
@@ -1327,12 +1328,12 @@
       "status": "awarded",
       "statusWording": "Awarded",
       "year": 2012,
-      "supervisorRole": "unspecified",
+      "supervisorRole": "supervisor",
       "thesisTitle": "Corneal nerve structure and function as markers of diabetic neuropathy",
-      "evidenceSourceId": "Uploaded document",
+      "evidenceSourceId": "Public institutional record",
       "sourcePage": null,
-      "evidenceLevel": "Document-supported",
-      "note": ""
+      "evidenceLevel": "Official thesis record",
+      "note": "The QUT thesis title page explicitly names Nathan Efron and Anthony Russell as supervisors."
     },
     {
       "id": "R023",
@@ -2285,7 +2286,8 @@
     {"id":"R236","supervisorId":"P190","candidateId":"P029","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"principal supervisor","thesisTitle":"Characterising Corneal Nerve Migration Rates in Healthy and Diabetic Individuals with and without Neuropathy","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis acknowledgements explicitly identify Katie Edwards as principal supervisor and Nathan Efron and Nicola Pritchard as associate supervisors."},
     {"id":"R237","supervisorId":"P023","candidateId":"P029","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2018,"supervisorRole":"associate supervisor","thesisTitle":"Characterising Corneal Nerve Migration Rates in Healthy and Diabetic Individuals with and without Neuropathy","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis acknowledgements explicitly identify Katie Edwards as principal supervisor and Nathan Efron and Nicola Pritchard as associate supervisors."},
     {"id":"R238","supervisorId":"P023","candidateId":"P022","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2011,"supervisorRole":"supervisor","thesisTitle":"Assessment of Retinal Structure and Visual Function in Association with Diabetic Peripheral Neuropathy","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official institutional profile","note":"The official QUT profile lists this completed supervision, matched to the candidate by the exact-title QUT thesis repository record."},
-    {"id":"R239","supervisorId":"P023","candidateId":"P079","degreeType":"MAppSci","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2008,"supervisorRole":"associate supervisor","thesisTitle":"Confocal Microscopic Examination of the Conjunctiva","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis acknowledgements explicitly identify Nathan Efron as principal supervisor and Nicola Pritchard as associate supervisor."}
+    {"id":"R239","supervisorId":"P023","candidateId":"P079","degreeType":"MAppSci","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2008,"supervisorRole":"associate supervisor","thesisTitle":"Confocal Microscopic Examination of the Conjunctiva","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis acknowledgements explicitly identify Nathan Efron as principal supervisor and Nicola Pritchard as associate supervisor."},
+    {"id":"R240","supervisorId":"P191","candidateId":"P023","degreeType":"PhD","institution":"Queensland University of Technology","status":"awarded","statusWording":"Awarded","year":2012,"supervisorRole":"supervisor","thesisTitle":"Corneal nerve structure and function as markers of diabetic neuropathy","evidenceSourceId":"Public institutional record","sourcePage":null,"evidenceLevel":"Official thesis record","note":"The QUT thesis title page explicitly names Nathan Efron and Anthony Russell as supervisors."}
   ],
   "reportedTotals": [
     {
