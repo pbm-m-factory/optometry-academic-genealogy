@@ -2,7 +2,7 @@
 
 An interactive, evidence-based browser for postgraduate research supervision relationships in optometry and vision science.
 
-The current research preview includes 1,091 people and 1,109 named supervision relationships across PhD, MS, MPhil, MSc, MScOptom, MASc, MAppSci, Masters Research, Ophthalmic Doctorate, Doctor of Medicine, DSc and one historical graduate award whose degree was not stated. It draws on uploaded source documents and public institutional records. Public site data excludes filenames, authors, dates, page references, private source identifiers, and local document paths.
+The current research preview includes 1,204 people and 1,231 named supervision relationships across PhD, PhD by prior publication, MS, MPhil, MSc, MScOptom, MASc, MAppSci, Masters Research, Professional Doctorate, Ophthalmic Doctorate, Doctor of Medicine, DSc and one historical graduate award whose degree was not stated. It draws on uploaded source documents and public institutional records. Public site data excludes filenames, authors, dates, page references, private source identifiers, and local document paths.
 
 Relationships are classified as Confirmed, Supported or Provisional. The website provides filters for institution, degree, year and confidence, a conservative duplicate-name review, and a public contribution form that prepares a reviewable GitHub issue.
 
